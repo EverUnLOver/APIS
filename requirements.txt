@@ -1,0 +1,7 @@
+numpy
+pandas
+urllib3
+requests
+openpyxl
+autopep8
+flake8
