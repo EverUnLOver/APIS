@@ -30,18 +30,23 @@ class Shopify:
                 break
         return lr
 
-    def _put_resources(self, uri, **kwargs):
+    def _put_resource(self, uri, **kwargs):
         url = "{}/{}".format(self.base_url, uri)
         data = kwargs.pop('data')
         encoded_data = json.dumps(data)
         r = self.http.request("PUT", url, body=encoded_data)
         return r
 
-    def _post_resources(self, uri, **kwargs):
+    def _post_resource(self, uri, **kwargs):
         url = "{}/{}".format(self.base_url, uri)
         data = kwargs.pop('data')
         encoded_data = json.dumps(data)
         r = self.http.request("POST", url, body=encoded_data)
+        return r
+
+    def _delete_resource(self, uri, **kwargs):
+        url = "{}/{}".format(self.base_url, uri)
+        r = self.http.request("DELETE", url)
         return r
 
     def _get_json_resource(self, uri, **kwargs):
@@ -63,7 +68,7 @@ class Shopify:
                             }
                             break
             elif method == 'put':
-                response = self._put_resources(uri, **kwargs)
+                response = self._put_resource(uri, **kwargs)
                 if response.status in [requests.codes.ok]:
                     try:
                         response_body = response.data.decode('utf-8')
@@ -74,7 +79,7 @@ class Shopify:
                             "message": e,
                         }
             elif method == 'post':
-                response = self._post_resources(uri, **kwargs)
+                response = self._post_resource(uri, **kwargs)
                 if response.status in [requests.codes.ok]:
                     try:
                         response_body = response.data.decode('utf-8')
@@ -84,8 +89,17 @@ class Shopify:
                             "status_code": response.status,
                             "message": e,
                         }
-            else:
-                pass
+            elif method == 'delete':
+                response = self._delete_resource(uri, **kwargs)
+                if response.status in [requests.codes.ok]:
+                    try:
+                        response_body = response.data.decode('utf-8')
+                        response_json = json.loads(response_body)
+                    except ValueError as e:
+                        response_json = {
+                            "status_code": response.status,
+                            "message": e,
+                        }
             return response_json
         except urllib3.exceptions.ConnectTimeoutError as i:
             response_json = {
@@ -141,28 +155,6 @@ class Shopify:
             return result
         return None
 
-    def post_product(self: "Shopify", product: dict, **kwargs):
-        """{"title":"Burton Custom Freestyle 151","body_html":"\u003cstrong\u003eGood snowboard!\u003c\/strong\u003e","vendor":"Burton","product_type":"Snowboard","tags":["Barnes \u0026 Noble","Big Air","John's Fav"]}"""
-
-        uri = "api/{}/products.json".format(self.api_version)
-        data = {
-            "product": product
-        }
-        method = 'post'
-        return self._get_json_resource(uri, method=method, data=data, **kwargs)
-
-    def post_metafield(self: "Shopify", metafield: dict, **kwargs):
-        """{"namespace":"inventory","key":"warehouse","value":25,"type":"number_integer"}"""
-
-        metafield.pop('product_id') if metafield.get('product_id') else None
-        # metafield['value'] = json.dumps(metafield.get('value'))
-        uri = "api/{}/metafields.json".format(self.api_version)
-        data = {
-            "metafield": metafield
-        }
-        method = 'post'
-        return self._get_json_resource(uri, method=method, data=data, **kwargs)
-
     def put_product(self: "Shopify", product: dict, **kwargs):
         """{"id":632910392,"title":"New product title"}"""
 
@@ -188,3 +180,30 @@ class Shopify:
         }
         method = 'put'
         return self._get_json_resource(uri, method=method, data=data, **kwargs)
+
+    def post_product(self: "Shopify", product: dict, **kwargs):
+        """{"title":"Burton Custom Freestyle 151","body_html":"\u003cstrong\u003eGood snowboard!\u003c\/strong\u003e","vendor":"Burton","product_type":"Snowboard","tags":["Barnes \u0026 Noble","Big Air","John's Fav"]}"""
+
+        uri = "api/{}/products.json".format(self.api_version)
+        data = {
+            "product": product
+        }
+        method = 'post'
+        return self._get_json_resource(uri, method=method, data=data, **kwargs)
+
+    def post_metafield(self: "Shopify", metafield: dict, **kwargs):
+        """{"namespace":"inventory","key":"warehouse","value":25,"type":"number_integer"}"""
+
+        metafield.pop('product_id') if metafield.get('product_id') else None
+        # metafield['value'] = json.dumps(metafield.get('value'))
+        uri = "api/{}/metafields.json".format(self.api_version)
+        data = {
+            "metafield": metafield
+        }
+        method = 'post'
+        return self._get_json_resource(uri, method=method, data=data, **kwargs)
+
+    def delete_metafield(self: "Shopify", metafield_id: int, **kwargs):
+        uri = "api/{}/metafields/{}.json".format(self.api_version, metafield_id)
+        method = 'delete'
+        return self._get_json_resource(uri, method=method, **kwargs)
