@@ -12,7 +12,7 @@ while 1:
     if type_request == "GET":
         while 1:
             action = input(
-                'What action do you want to perform? ( GET_ALL_PRODUCTS / GET_SPECIFIC_FIELD_PRODUCT / GET_METAFIELDS / GET_METAFIELDS_ONE_PRODUCT ) : ')
+                'What action do you want to perform? ( GET_ALL_PRODUCTS / GET_SPECIFIC_FIELD_PRODUCT / GET_METAFIELDS / GET_METAFIELDS_ONE_PRODUCT / GET_PRODUCTS_IDS_BY_HANDLE_TITLE ) : ')
 
             if action == 'GET_ALL_PRODUCTS':
                 array_r = shopify.get_products()
@@ -29,8 +29,25 @@ while 1:
                 df_json.to_excel(
                     '{}_indexed.xlsx'.format(name_file), index=True)
                 break
+            elif action == 'GET_PRODUCTS_IDS_BY_HANDLE_TITLE':
+                array_r = shopify.get_products(fields='handle,title,id')
+                df_json = [row.to_dict() for index, row in pd.read_excel('{}.xlsx'.format(input('Path del archivo con la data para filtrar: '))).iterrows()]
+                filter_data =['{} {}'.format(row.get('Handle'), row.get('Title')) for row in df_json]
+                array_r = tuple(filter(lambda data: '{} {}'.format(data.get('handle'), data.get('title')) in filter_data, array_r))
+
+                json_obj = json.dumps(array_r, indent=4, sort_keys=True)
+
+                name_file = input('Nombre del archivo : ')
+
+                with open('{}.json'.format(name_file), 'w') as outfile:
+                    outfile.write(json_obj)
+
+                df_json = pd.read_json("{}.json".format(name_file))
+
+                df_json.to_excel('{}_indexed.xlsx'.format(name_file), index=True, index_label='indexed')
+                break
             elif action == 'GET_SPECIFIC_FIELD_PRODUCT':
-                array_r = shopify.get_products(metafield=input(
+                array_r = shopify.get_products(fields=input(
                     'Ingrese los campos que desea retornar ej = id,title... : '))
 
                 json_obj = json.dumps(array_r, indent=4, sort_keys=True)

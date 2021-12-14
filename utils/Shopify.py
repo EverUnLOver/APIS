@@ -117,15 +117,15 @@ class Shopify:
             )
         return response_json
 
-    def get_products(self: "Shopify", metafield: str = None, **kwargs):
+    def get_products(self: "Shopify", fields: str = None, **kwargs):
         """
         This function will return a list of products that have the metafield
         passed in as an argument.
         """
         uri = 'api/{}/products.json'.format(self.api_version)
-        if metafield:
+        if fields:
             uri = "api/{}/products.json?limit=250&fields={}".format(
-                self.api_version, metafield)
+                self.api_version, fields)
         # else:api_version
         #     uri = "product_listings.json?limit=250"
         method = 'get'
