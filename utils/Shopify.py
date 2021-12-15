@@ -1,3 +1,4 @@
+from json.decoder import JSONDecodeError
 import urllib3
 import requests
 import json
@@ -80,7 +81,7 @@ class Shopify:
                         }
             elif method == 'post':
                 response = self._post_resource(uri, **kwargs)
-                if response.status in [requests.codes.ok]:
+                if response.status in [requests.codes.ok, requests.codes.created, requests.codes.accepted]:
                     try:
                         response_body = response.data.decode('utf-8')
                         response_json = json.loads(response_body)
@@ -89,6 +90,25 @@ class Shopify:
                             "status_code": response.status,
                             "message": e,
                         }
+                else:
+                    try:
+                        errors = json.loads(response.data.decode('utf-8')).get('errors')
+                        metafield = kwargs['data']['metafield']
+                        response_json = {
+                            "status_code": response.status,
+                            'errors': errors,
+                            'owner_id': metafield['owner_id'],
+                            'owner_resource': metafield['owner_resource'],
+                            'key': metafield['key'],
+                        } | {key: metafield.get(key) for key in errors if errors not in ['Not Found']}
+                    except (ValueError, JSONDecodeError) as e:
+                        response_json = {
+                            "status_code": response.status,
+                            "message": e,
+                            'owner_id': metafield['owner_id'],
+                            'owner_resource': metafield['owner_resource'],
+                        }
+                    print(response_json)
             elif method == 'delete':
                 response = self._delete_resource(uri, **kwargs)
                 if response.status in [requests.codes.ok]:
