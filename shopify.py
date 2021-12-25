@@ -143,10 +143,11 @@ while 1:
                 break
             elif action == 'DATA_SCIENCE_POST_METAFIELDS':
                 df_json = pd.read_excel('{}.xlsx'.format(name_file), converters={'owner_id': int})
-                to_excel = []
+                # to_excel = []
+                array_data = list()
                 for index, row in df_json.iterrows():
                     data = row.to_dict()
-                    array_data = [shopify.post_metafield(metafield={
+                    array_data += [shopify.post_metafield(metafield={
                         'owner_id': data['owner_id'],
                         'type': 'single_line_text_field' if key == 'family' else 'product_reference',
                         'key': key,
@@ -155,6 +156,12 @@ while 1:
                         'value_type': 'string',
                         'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
                     }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource']]
+                status_codes = set(d['status_code'] for d in array_data)
+                for status in status_codes:
+                    print('Status code {}'.format(status))
+                    data_to_excel = tuple(filter(lambda x: x.get('status_code') == status, array_data))
+                    df_json = pd.DataFrame(data_to_excel)
+                    df_json.to_excel('{}_status_{}.xlsx'.format(name_file, status), index=False)
                 #     array_data = [{
                 #         'owner_id': data['owner_id'],
                 #         'type': 'single_line_text_field' if key == 'family' else 'product_reference',

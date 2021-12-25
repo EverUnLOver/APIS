@@ -91,9 +91,9 @@ class Shopify:
                             "message": e,
                         }
                 else:
+                    metafield = kwargs['data']['metafield']
                     try:
                         errors = json.loads(response.data.decode('utf-8')).get('errors')
-                        metafield = kwargs['data']['metafield']
                         response_json = {
                             "status_code": response.status,
                             'errors': errors,
@@ -107,6 +107,8 @@ class Shopify:
                             "message": e,
                             'owner_id': metafield['owner_id'],
                             'owner_resource': metafield['owner_resource'],
+                            'key': metafield['key'],
+                            'value': metafield['value']
                         }
                     print(response_json)
             elif method == 'delete':
