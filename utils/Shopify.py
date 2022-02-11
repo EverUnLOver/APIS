@@ -84,7 +84,7 @@ class Shopify:
                 if response.status in [requests.codes.ok, requests.codes.created, requests.codes.accepted]:
                     try:
                         response_body = response.data.decode('utf-8')
-                        response_json = json.loads(response_body)
+                        response_json = json.loads(response_body) | {'status_code': response.status}
                     except ValueError as e:
                         response_json = {
                             "status_code": response.status,
