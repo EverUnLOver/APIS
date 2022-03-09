@@ -1,7 +1,6 @@
 from json.decoder import JSONDecodeError
-import urllib3
-import requests
-import json
+import urllib3, json, requests
+from time import sleep
 # import logging
 
 
@@ -122,6 +121,7 @@ class Shopify:
                             "status_code": response.status,
                             "message": e,
                         }
+            sleep(0.5)
             return response_json
         except urllib3.exceptions.ConnectTimeoutError as i:
             response_json = {
@@ -137,6 +137,7 @@ class Shopify:
                     "message": reason,
                 }
             )
+        sleep(0.5)
         return response_json
 
     def get_products(self: "Shopify", fields: str = None, **kwargs):
