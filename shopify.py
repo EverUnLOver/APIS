@@ -209,8 +209,12 @@ while 1:
                     shopify.post_metafield(metafield=row.to_dict())
                 break
             elif action == 'DATA_SCIENCE_POST_METAFIELDS':
+                array = shopify.get_products(fields='handle,title,id')
+                get_id = {f"{d['handle']} {d['title']}": d["id"] for d in array}
                 df_json = pd.read_excel('{}.xlsx'.format(
-                    name_file), converters={'owner_id': int})
+                    name_file))
+                # df_json = pd.read_excel('{}.xlsx'.format(
+                #     name_file), converters={'owner_id': int})
                 # to_excel = []
                 array_data = list()
                 for index, row in df_json.iterrows():
@@ -228,31 +232,34 @@ while 1:
                     #     'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
                     # }) for key, value in data.items() if key not in ['owner_id', 'id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource']]
 
-                    # array_data += [shopify.post_metafield(metafield={
-                    #     'owner_id': data['owner_id'],
-                    #     'type': 'string' if key in ['config', 'reviews', 'google_product_category'] else 'integer' if key == 'hidden' else 'number_integer' if key == 'rating_count' else 'json_string' if key == 'product_status' else 'rating' if key == 'rating' else 'product_reference' if key in ['details_foot_relation', 'complete_look_relation_1', 'complete_look_relation_2', 'complete_look_relation_3'] else 'multi_line_text_field' if key in ['reviews', 'shipping', 'returns'] else 'single_line_text_field',
-                    #     'key': key,
-                    #     'value': value,
-                    #     'namespace': 'spr' if key == 'reviews' else 'SEOMetaManager' if key == 'config' else 'seo' if key == 'hidden' else 'msft_bingads' if key == 'product_status' else 'mc-facebook' if key == 'google_product_category' else 'reviews' if key in ['rating', 'rating_count'] else 'customs',
-                    #     'value_type': 'integer' if key in ['hidden', 'rating_count'] else 'json_string' if key in ['product_status', 'rating'] else 'string',
-                    #     'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
-                    # }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource']]
+                    # ONEONE
+                    array_data += [shopify.post_metafield(metafield={
+                        'owner_id': get_id[f"{data['handle']} {data['title']}"],
+                        'type': 'string' if key in ['config', 'google_product_category', 'badge', 'widget'] else 'integer' if key == 'hidden' else 'number_integer' if key == 'rating_count' else 'json_string' if key == 'product_status' else 'rating' if key == 'rating' else 'product_reference' if key in ['details_foot_relation', 'complete_look_relation_1', 'complete_look_relation_2', 'complete_look_relation_3'] else 'multi_line_text_field' if key in ['reviews', 'shipping', 'returns'] else 'single_line_text_field',
+                        'key': key,
+                        'value': value,
+                        'namespace': 'judgeme' if key in ['badge', 'widget'] else 'spr' if key == 'reviews' else 'SEOMetaManager' if key == 'config' else 'seo' if key == 'hidden' else 'msft_bingads' if key == 'product_status' else 'mc-facebook' if key == 'google_product_category' else 'reviews' if key in ['rating', 'rating_count'] else 'customs',
+                        # 'value_type': 'integer' if key in ['hidden', 'rating_count'] else 'json_string' if key in ['product_status', 'rating'] else 'string',
+                        'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
+                    }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource', 'handle', 'title']]
 
                     # ADH
-                    array_data += [shopify.post_metafield(metafield={
-                        'owner_id': int(data['owner_id']),
-                        'type': 'string' if key in ['description_tag', 'title_tag'] else 'number_decimal' if key == 'max_quantity' else 'single_line_text_field' if key in ['detail_title_1', 'video_1'] else 'multi_line_text_field' if key == 'detail_1' else 'url' if key == 'document_1' else 'dimension',
-                        'key': key,
-                        'value': str(value) if key == 'max_quantity' else json.dumps({"value":value,"unit":"cm"}),
-                        'namespace': 'global' if key in ['description_tag', 'title_tag'] else 'dimensions' if key in ['height', 'width', 'large'] else 'my_fields',
-                        'value_type': 'json_string' if key in ['height', 'width', 'large'] else 'string',
-                        'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
-                    }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource']]
+                    # array_data += [shopify.post_metafield(metafield={
+                    #     'owner_id': int(data['owner_id']),
+                    #     'type': 'string' if key in ['description_tag', 'title_tag'] else 'number_decimal' if key == 'max_quantity' else 'single_line_text_field' if key in ['detail_title_1', 'video_1'] else 'multi_line_text_field' if key == 'detail_1' else 'url' if key == 'document_1' else 'dimension',
+                    #     'key': key,
+                    #     'value': str(value) if key == 'max_quantity' else json.dumps({"value":value,"unit":"cm"}),
+                    #     'namespace': 'global' if key in ['description_tag', 'title_tag'] else 'dimensions' if key in ['height', 'width', 'large'] else 'my_fields',
+                    #     'value_type': 'json_string' if key in ['height', 'width', 'large'] else 'string',
+                    #     'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
+                    # }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource']]
                 status_codes = set(d['status_code'] for d in array_data)
                 for status in status_codes:
                     print('Status code {}'.format(status))
                     data_to_excel = tuple(
                         filter(lambda x: x.get('status_code') == status, array_data))
+                    if status in [201, 200, '200', '201']:
+                        data_to_excel = [d['metafield'] for d in data_to_excel]
                     df_json = pd.DataFrame(data_to_excel)
                     df_json.to_excel('{}_status_{}.xlsx'.format(
                         name_file, status), index=False)
