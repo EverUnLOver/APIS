@@ -2,9 +2,8 @@ import pandas as pd
 import json
 from utils import Vtex
 
-# vtex = Vtex(api_key=input("API Key: "), api_token=input(
-#     "API Token: "), store_name=input("Store Name: "))
-vtex = Vtex(api_key="vtexappkey-mercedescampuzano-TDDLZX", api_token="XMBNJPBIOSSPWKCSPFWJAIMLFGDHIBAYCPHAJNWJCVOVPCNNFEBGBJKPZQIDMUAMSTMGCCJCIMGETQVCSPBDAUXTFSATETXIVBDVPHLCVYXOCFVIUFKWSWMXWTAJBPXP", store_name="mercedescampuzano")
+vtex = Vtex(api_key=input("API Key: "), api_token=input(
+    "API Token: "), store_name=input("Store Name: "))
 
 while 1:
   type_request = input("Type of request (PUT): ")

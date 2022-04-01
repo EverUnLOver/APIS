@@ -2,11 +2,8 @@ import pandas as pd
 import json
 from utils import Shopify
 
-# shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
-#     'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
-
-# ADH
-shopify = Shopify(store_name="adh-colombia", password="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", api_version="2022-01")
+shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
+    'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
 
 while 1:
     type_request = input(
@@ -247,32 +244,32 @@ while 1:
                     # }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource', 'handle', 'title']]
 
                     # ADH
-                    # if f"{data['handle'].lower()} {data['title']}" in get_id:
-                    #     array_data += [shopify.post_metafield(metafield={
-                    #         'owner_id': get_id[f"{data['handle'].lower()} {data['title']}"],
-                    #         'type': 'string' if key in ['description_tag', 'title_tag'] else 'number_decimal' if key == 'max_quantity' else 'single_line_text_field' if key in ['detail_title_1', 'video_1', 'family'] else 'multi_line_text_field' if key == 'detail_1' else 'url' if key == 'document_1' else 'dimension',
-                    #         'key': key,
-                    #         'value': str(value) if key in ['max_quantity'] else json.dumps({"value":value,"unit":"cm"}),
-                    #         'namespace': "customs" if key in ["family"] else 'global' if key in ['description_tag', 'title_tag'] else 'dimensions' if key in ['height', 'width', 'large'] else 'my_fields',
-                    #         #'value_type': 'json_string' if key in ['height', 'width', 'large'] else 'string',
-                    #         'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
-                    #     }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource', 'handle', 'title']]
+                    if f"{data['handle'].lower()} {data['title']}" in get_id:
+                        array_data += [shopify.post_metafield(metafield={
+                            'owner_id': get_id[f"{data['handle'].lower()} {data['title']}"],
+                            'type': 'string' if key in ['description_tag', 'title_tag'] else 'number_decimal' if key == 'max_quantity' else 'single_line_text_field' if key in ['detail_title_1', 'video_1', 'family'] else 'multi_line_text_field' if key == 'detail_1' else 'url' if key == 'document_1' else 'dimension',
+                            'key': key,
+                            'value': str(value) if key in ['max_quantity', "family"] else json.dumps({"value":value,"unit":"cm"}),
+                            'namespace': "customs" if key in ["family"] else 'global' if key in ['description_tag', 'title_tag'] else 'dimensions' if key in ['height', 'width', 'large'] else 'my_fields',
+                            #'value_type': 'json_string' if key in ['height', 'width', 'large'] else 'string',
+                            'owner_resource': data['owner_resource'] if data.get('owner_resource') else 'product'
+                        }) for key, value in data.items() if key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource', 'handle', 'title']]
                 
-                    if not f"{data['handle'].lower()} {data['title']}" in get_id:
-                        array_data += [data]
-                df_json = pd.DataFrame(array_data)
-                df_json.to_excel('{}_status_{}.xlsx'.format(
-                        name_file, '404'), index=False)
-                # status_codes = set(d['status_code'] for d in array_data)
-                # for status in status_codes:
-                #     print('Status code {}'.format(status))
-                #     data_to_excel = tuple(
-                #         filter(lambda x: x.get('status_code') == status, array_data))
-                #     if status in [201, 200, '200', '201']:
-                #         data_to_excel = [d['metafield'] for d in data_to_excel]
-                #     df_json = pd.DataFrame(data_to_excel)
-                #     df_json.to_excel('{}_status_{}.xlsx'.format(
-                #         name_file, status), index=False)
+                    # if not f"{data['handle'].lower()} {data['title']}" in get_id:
+                    #     array_data += [data]
+                # df_json = pd.DataFrame(array_data)
+                # df_json.to_excel('{}_status_{}.xlsx'.format(
+                #         name_file, '404'), index=False)
+                status_codes = set(d['status_code'] for d in array_data)
+                for status in status_codes:
+                    print('Status code {}'.format(status))
+                    data_to_excel = tuple(
+                        filter(lambda x: x.get('status_code') == status, array_data))
+                    if status in [201, 200, '200', '201']:
+                        data_to_excel = [d['metafield'] for d in data_to_excel]
+                    df_json = pd.DataFrame(data_to_excel)
+                    df_json.to_excel('{}_status_{}.xlsx'.format(
+                        name_file, status), index=False)
                 #     array_data = [{
                 #         'owner_id': data['owner_id'],
                 #         'type': 'single_line_text_field' if key == 'family' else 'product_reference',
