@@ -1,9 +1,10 @@
 import pandas as pd
 import json
 from utils import Shopify
+from datetime import datetime, timedelta
 
-shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
-    'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
+# shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
+#     'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
 
 while 1:
     type_request = input(
@@ -12,9 +13,23 @@ while 1:
     if type_request == "GET":
         while 1:
             action = input(
-                'What action do you want to perform? ( GET_ALL_PRODUCTS / GET_SPECIFIC_FIELD_PRODUCT / GET_METAFIELDS / GET_METAFIELDS_ONE_PRODUCT / GET_PRODUCTS_IDS_BY_HANDLE_TITLE ) : ')
+                'What action do you want to perform? ( GET_MONTH_ORDERS / GET_ALL_PRODUCTS / GET_SPECIFIC_FIELD_PRODUCT / GET_METAFIELDS / GET_METAFIELDS_ONE_PRODUCT / GET_PRODUCTS_IDS_BY_HANDLE_TITLE ) : ')
 
-            if action == 'GET_ALL_PRODUCTS':
+            if action == "GET_MONTH_ORDERS":
+                array_r = shopify.get_month_orders(datetime.now() - timedelta(days=31))
+                json_obj = json.dumps(array_r, indent=4, sort_keys=True)
+
+                name_file = input('Nombre del archivo : ')
+
+                with open('{}.json'.format(name_file), 'w') as outfile:
+                    outfile.write(json_obj)
+
+                df_json = pd.read_json("{}.json".format(name_file))
+                # df_json.to_excel('{}.xlsx'.format(name_file), index=False)
+                df_json.to_excel(
+                    '{}_indexed.xlsx'.format(name_file), index=True)
+                break
+            elif action == 'GET_ALL_PRODUCTS':
                 array_r = shopify.get_products()
 
                 json_obj = json.dumps(array_r, indent=4, sort_keys=True)

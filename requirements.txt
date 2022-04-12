@@ -5,3 +5,4 @@ requests
 openpyxl
 autopep8
 flake8
+XlsxWriter

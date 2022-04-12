@@ -140,6 +140,14 @@ class Shopify:
         sleep(0.5)
         return response_json
 
+    def get_month_orders(self, datetime, **kwargs):
+        uri = 'api/{}/orders.json?status=any&limit=250&created_at_min={}'.format(
+            self.api_version,
+            datetime.strftime('%Y-%m-%dT%H:%M:%S%z')
+        )
+        method = 'get'
+        return self._get_json_resource(uri, method=method, **kwargs)
+
     def get_products(self: "Shopify", fields: str = None, **kwargs):
         """
         This function will return a list of products that have the metafield
