@@ -174,7 +174,7 @@ class Shopify:
             return result
         return None
 
-    def get_metafields_variant(self: "Shopify", args, **kwargs):
+    def get_metafields_variant(self: "Shopify", *args, **kwargs):
         product_id = args[0]
         variant_id = args[1]
         if product_id and variant_id:
