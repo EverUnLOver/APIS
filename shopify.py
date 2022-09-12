@@ -4,15 +4,64 @@ import json
 from utils import Shopify
 from datetime import datetime, timedelta
 
-shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
-    'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
+# shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
+#     'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
+
+
 
 metafields = {
+    "referencia": {
+        "namespace": "custom",
+        "type": "single_line_text_field",
+    },
     "bajo_pedido": {
         "namespace": "custom",
-        "type": "boolean",
+        "type": "boolean"
     }
 }
+
+# metafields = {
+#     "min_qty": {
+#         "namespace": "my_fields",
+#         "type": "number_decimal"
+#     },
+#     "max_quantity": {
+#         "namespace": "my_fields",
+#         "type": "number_decimal"
+#     },
+#     "title_tag": {
+#         "namespace": "global",
+#         "type": "string"
+#     },
+#     "description_tag": {
+#         "namespace": "global",
+#         "type": "string"
+#     },
+#     "detail_title_1": {
+#         "namespace": "my_fields",
+#         "type": "single_line_text_field"
+#     },
+#     "document_1": {
+#         "namespace": "my_fields",
+#         "type": "url"
+#     },
+#     "large": {
+#         "namespace": "dimensions",
+#         "type": "dimension"
+#     },
+#     "width": {
+#         "namespace": "dimensions",
+#         "type": "dimension"
+#     },
+#     "empaque": {
+#         "namespace": "custom",
+#         "type": "single_line_text_field"
+#     },
+#     "height": {
+#         "namespace": "dimensions",
+#         "type": "dimension"
+#     }
+# }
 
 while 1:
     type_request = input(
@@ -175,29 +224,30 @@ while 1:
                     '{}_indexed.xlsx'.format(name_file), index=True, index_label='indexed')
                 break
             elif action == 'GET_METAFIELDS':
-                array_r = shopify.get_products(metafield='id,variants')
-                variants = [
-                    variant
-                    for product in array_r
-                    for variant in product['variants']
-                ]
+                array_r = shopify.get_products(metafield='id,handle,title,variants')
+                # variants = [
+                #     variant
+                #     for product in array_r
+                #     for variant in product['variants']
+                # ]
                 metafields_products = [
                     data
                     for t in filter(
                         lambda x: x,
                         map(
-                            shopify.get_metafields_product,
-                            [d.get('id')for d in array_r if d.get('id')]
+                            shopify.get_metafields_product_v2,
+                            [d for d in array_r if d.get('id')]
                         )
                     )
                     for data in t
                 ]
-                metafields_variants = [data for t in filter(lambda x: x, map(shopify.get_metafields_variant, [(d.get(
-                    'product_id'), d.get('id')) for d in variants if d.get('product_id') and d.get('id')])) for data in t]
-                metafields = metafields_products + metafields_variants
+                # metafields_variants = [data for t in filter(lambda x: x, map(shopify.get_metafields_variant, [(d.get(
+                #     'product_id'), d.get('id')) for d in variants if d.get('product_id') and d.get('id')])) for data in t]
+                # metafields = metafields_products + metafields_variants
+                metafields = metafields_products
                 # metafields = metafields_products
                 keys = ['product_id', 'id', 'owner_resource', 'owner_id',
-                        'type', 'value', 'value_type', 'namespace', 'key']
+                        'type', 'value', 'value_type', 'namespace', 'key', 'handle', 'title']
                 metafields = [
                     {
                         key: value
@@ -262,7 +312,8 @@ while 1:
             elif action == 'DATA_SCIENCE_POST_METAFIELDS':
                 # products = shopify.get_products(fields='handle,title,id')
                 # ids = {
-                #     f"{product['handle']} {product['title']}": product["id"]
+                #     # f"{product['handle'].lower().strip()} {product['title']}": product["id"]
+                #     f"{product['title']}": product["id"]
                 #     for product in products
                 # }
                 products = shopify.get_products(fields='variants')
@@ -279,9 +330,11 @@ while 1:
 
                     # ondademar
                     # if f"{str(data['handle']).lower().strip()} {data['title']}" in ids:
+                    # if f"{data['title']}" in ids:
                     if f"{data['sku']}" in ids:
                         array_data += [shopify.post_metafield(metafield={
                             # 'owner_id': ids[f"{str(data['handle']).lower().strip()} {data['title']}"],
+                            # 'owner_id': ids[f"{data['title']}"],
                             'owner_id': ids[f"{data['sku']}"],
                             'type': metafields[key]["type"],
                             'key': key,

@@ -173,6 +173,20 @@ class Shopify:
                 "status_code") == None, self._get_json_resource(uri, method=method, **kwargs))))
             return result
         return None
+    
+    def get_metafields_product_v2(self: "Shopify", data: dict, **kwargs):
+        product_id = data.get("id")
+        handle = data.get("handle")
+        title = data.get("title")
+        if product_id:
+            uri = "api/{}/products/{}/metafields.json".format(
+                self.api_version, product_id)
+            method = 'get'
+            result = tuple(map(lambda x: x | {'product_id': product_id, 'handle': handle, 'title': title}, filter(lambda x: x and x.get(
+                "status_code") == None, self._get_json_resource(uri, method=method, **kwargs))))
+            return result
+        return None
+
 
     def get_metafields_variant(self: "Shopify", *args, **kwargs):
         product_id = args[0]
