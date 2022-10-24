@@ -4,64 +4,11 @@ import json
 from utils import Shopify
 from datetime import datetime, timedelta
 
-# shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
-#     'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
+shopify = Shopify(store_name=input('Ingrese la tienda : '), password=input(
+    'Ingrese el password or access_token : '), api_version=input('ingrese la version del api : '))
 
 
-
-metafields = {
-    "referencia": {
-        "namespace": "custom",
-        "type": "single_line_text_field",
-    },
-    "bajo_pedido": {
-        "namespace": "custom",
-        "type": "boolean"
-    }
-}
-
-# metafields = {
-#     "min_qty": {
-#         "namespace": "my_fields",
-#         "type": "number_decimal"
-#     },
-#     "max_quantity": {
-#         "namespace": "my_fields",
-#         "type": "number_decimal"
-#     },
-#     "title_tag": {
-#         "namespace": "global",
-#         "type": "string"
-#     },
-#     "description_tag": {
-#         "namespace": "global",
-#         "type": "string"
-#     },
-#     "detail_title_1": {
-#         "namespace": "my_fields",
-#         "type": "single_line_text_field"
-#     },
-#     "document_1": {
-#         "namespace": "my_fields",
-#         "type": "url"
-#     },
-#     "large": {
-#         "namespace": "dimensions",
-#         "type": "dimension"
-#     },
-#     "width": {
-#         "namespace": "dimensions",
-#         "type": "dimension"
-#     },
-#     "empaque": {
-#         "namespace": "custom",
-#         "type": "single_line_text_field"
-#     },
-#     "height": {
-#         "namespace": "dimensions",
-#         "type": "dimension"
-#     }
-# }
+metafields = {'color': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'familia_color': {'namespace': 'my_field', 'type': 'single_line_text_field'}, 'peso': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'modo_de_uso': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'lavado': {'namespace': 'my_fields', 'type': 'multi_line_text_field'}, 'capucha': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'cremallera': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'cuello': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'manga': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'dise_o_de_la_tela_': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'composici_n': {'namespace': 'my_fields', 'type': 'single_line_text_field'}, 'g_nero': {'namespace': 'my_fields', 'type': 'single_line_text_field'}}
 
 while 1:
     type_request = input(
@@ -70,7 +17,7 @@ while 1:
     if type_request == "GET":
         while 1:
             action = input(
-                'What action do you want to perform? ( GET_MONTH_ORDERS / GET_ALL_PRODUCTS / GET_SPECIFIC_FIELD_PRODUCT / GET_METAFIELDS / GET_METAFIELDS_ONE_PRODUCT / GET_METAFIELDS_ONE_VARIANT / GET_PRODUCTS_IDS_BY_HANDLE_TITLE ) : ')
+                'What action do you want to perform? ( GET_PID_VID_VTITLE_VSKU / GET_MONTH_ORDERS / GET_ALL_PRODUCTS / GET_SPECIFIC_FIELD_PRODUCT / GET_METAFIELDS / GET_METAFIELDS_ONE_PRODUCT / GET_METAFIELDS_ONE_VARIANT / GET_PRODUCTS_IDS_BY_HANDLE_TITLE ) : ')
 
             if action == "GET_MONTH_ORDERS":
                 array_r = shopify.get_month_orders(
@@ -86,6 +33,23 @@ while 1:
                 # df_json.to_excel('{}.xlsx'.format(name_file), index=False)
                 df_json.to_csv(
                     '{}.csv'.format(name_file), index=False)
+                break
+            elif action == "GET_PID_VID_VTITLE_VSKU":
+                products = shopify.get_products(fields='id,title,variants')
+                info = [
+                    {
+                        "productID-variantID": "-".join([str(product["id"]), str(variant["id"])]),
+                        "productTitle": product["title"],
+                        "variantTitle": variant["title"],
+                        "variantSku": variant["sku"],
+                        "price": variant["price"],
+                        "inventoryID": variant["inventory_item_id"],
+                    }
+                    for product in products
+                    for variant in product["variants"]
+                ]
+                df_json = pd.DataFrame(info)
+                df_json.to_excel("info.xlsx", index=False)
                 break
             elif action == 'GET_ALL_PRODUCTS':
                 array_r = shopify.get_products()
@@ -310,18 +274,18 @@ while 1:
                     shopify.post_metafield(metafield=row.to_dict())
                 break
             elif action == 'DATA_SCIENCE_POST_METAFIELDS':
-                # products = shopify.get_products(fields='handle,title,id')
-                # ids = {
-                #     # f"{product['handle'].lower().strip()} {product['title']}": product["id"]
-                #     f"{product['title']}": product["id"]
-                #     for product in products
-                # }
-                products = shopify.get_products(fields='variants')
+                products = shopify.get_products(fields='handle,title,id')
                 ids = {
-                    f"{variant['sku']}": variant["id"]
+                    f"{product['handle'].lower().strip()} {product['title']}": product["id"]
+                    # f"{product['title']}": product["id"]
                     for product in products
-                    for variant in product.get("variants", [])
                 }
+                # products = shopify.get_products(fields='variants')
+                # ids = {
+                #     f"{variant['sku']}": variant["id"]
+                #     for product in products
+                #     for variant in product.get("variants", [])
+                # }
                 df_json = pd.read_excel('{}.xlsx'.format(
                     name_file))
                 array_data = list()
@@ -329,20 +293,26 @@ while 1:
                     data = row.to_dict()
 
                     # ondademar
-                    # if f"{str(data['handle']).lower().strip()} {data['title']}" in ids:
+                    if f"{str(data['handle']).lower().strip()} {data['title']}" in ids:
                     # if f"{data['title']}" in ids:
-                    if f"{data['sku']}" in ids:
+                    # if f"{data['sku']}" in ids:
                         array_data += [shopify.post_metafield(metafield={
-                            # 'owner_id': ids[f"{str(data['handle']).lower().strip()} {data['title']}"],
+                            'owner_id': ids[f"{str(data['handle']).lower().strip()} {data['title']}"],
                             # 'owner_id': ids[f"{data['title']}"],
-                            'owner_id': ids[f"{data['sku']}"],
+                            # 'owner_id': ids[f"{data['sku']}"],
                             'type': metafields[key]["type"],
                             'key': key,
                             "value": value,
                             'namespace': metafields[key]["namespace"],
-                            'owner_resource': "variant"
-                        }) for key, value in data.items() if value and key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource', 'handle', 'title', "sku"]]
-
+                            'owner_resource': "product"
+                        }) for key, value in data.items() if value and key not in ['owner_id', 'namespace', 'key', 'value', 'value_type', 'type', 'owner_resource', 'handle', 'title', "sku", "hojas"]]
+                    else:
+                        array_data.append({
+                            "status_code": "404",
+                            "handle": str(data['handle']).lower().strip(),
+                            "title": data['title']
+                        })
+                        print(f"{str(data['handle']).lower().strip()} {data['title']}")
                 status_codes = set(d['status_code'] for d in array_data)
                 for status in status_codes:
                     print('Status code {}'.format(status))

@@ -28,4 +28,4 @@ def json_to_csv(file_path):
     df = pd.DataFrame(data)
     df.to_csv("{}.csv".format(file_path), index=False)
 
-json_to_csv("orders.json")
+excel_to_json("códigosciudades.xlsx")

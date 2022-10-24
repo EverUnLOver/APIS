@@ -1,0 +1,3886 @@
+[
+    {
+        "Ciudad": "BOGOTA",
+        "Code postal": 11001
+    },
+    {
+        "Ciudad": "TUNJA",
+        "Code postal": 15001
+    },
+    {
+        "Ciudad": "DUITAMA",
+        "Code postal": 15238
+    },
+    {
+        "Ciudad": "PAIPA",
+        "Code postal": 15516
+    },
+    {
+        "Ciudad": "SOGAMOSO",
+        "Code postal": 15759
+    },
+    {
+        "Ciudad": "TIBASOSA",
+        "Code postal": 15806
+    },
+    {
+        "Ciudad": "ALTO TABLAZO",
+        "Code postal": 17001
+    },
+    {
+        "Ciudad": "CHINCHINA",
+        "Code postal": 17174
+    },
+    {
+        "Ciudad": "VILLAMARIA",
+        "Code postal": 17873
+    },
+    {
+        "Ciudad": "CALOTO",
+        "Code postal": 19142
+    },
+    {
+        "Ciudad": "MIRANDA",
+        "Code postal": 19455
+    },
+    {
+        "Ciudad": "PUERTO TEJADA",
+        "Code postal": 19573
+    },
+    {
+        "Ciudad": "SANTANDER DE QUILICHAO",
+        "Code postal": 19698
+    },
+    {
+        "Ciudad": "VILLA RICA",
+        "Code postal": 19845
+    },
+    {
+        "Ciudad": "CAJICA",
+        "Code postal": 25126
+    },
+    {
+        "Ciudad": "CHIA",
+        "Code postal": 25175
+    },
+    {
+        "Ciudad": "COTA",
+        "Code postal": 25214
+    },
+    {
+        "Ciudad": "FACATATIVA",
+        "Code postal": 25269
+    },
+    {
+        "Ciudad": "FUNZA",
+        "Code postal": 25286
+    },
+    {
+        "Ciudad": "GACHANCIPA",
+        "Code postal": 25295
+    },
+    {
+        "Ciudad": "GIRARDOT",
+        "Code postal": 25307
+    },
+    {
+        "Ciudad": "LA CALERA",
+        "Code postal": 25377
+    },
+    {
+        "Ciudad": "MADRID",
+        "Code postal": 25430
+    },
+    {
+        "Ciudad": "MOSQUERA",
+        "Code postal": 25473
+    },
+    {
+        "Ciudad": "SIBATE",
+        "Code postal": 25740
+    },
+    {
+        "Ciudad": "SOACHA",
+        "Code postal": 25754
+    },
+    {
+        "Ciudad": "SOPO",
+        "Code postal": 25758
+    },
+    {
+        "Ciudad": "TABIO",
+        "Code postal": 25785
+    },
+    {
+        "Ciudad": "TENJO",
+        "Code postal": 25799
+    },
+    {
+        "Ciudad": "BRICEÑO",
+        "Code postal": 25817
+    },
+    {
+        "Ciudad": "ZIPAQUIRA",
+        "Code postal": 25899
+    },
+    {
+        "Ciudad": "CAGUAN",
+        "Code postal": 41001
+    },
+    {
+        "Ciudad": "ALTO POMPEYA",
+        "Code postal": 50001
+    },
+    {
+        "Ciudad": "ARMENIA (Q)",
+        "Code postal": 63001
+    },
+    {
+        "Ciudad": "BARCELONA",
+        "Code postal": 63130
+    },
+    {
+        "Ciudad": "CIRCASIA",
+        "Code postal": 63190
+    },
+    {
+        "Ciudad": "ALTAGRACIA",
+        "Code postal": 66001
+    },
+    {
+        "Ciudad": "DOSQUEBRADAS",
+        "Code postal": 66170
+    },
+    {
+        "Ciudad": "SANTA ROSA DE CABAL",
+        "Code postal": 66682
+    },
+    {
+        "Ciudad": "BUCARAMANGA",
+        "Code postal": 68001
+    },
+    {
+        "Ciudad": "FLORIDABLANCA",
+        "Code postal": 68276
+    },
+    {
+        "Ciudad": "ACAPULCO",
+        "Code postal": 68307
+    },
+    {
+        "Ciudad": "LEBRIJA",
+        "Code postal": 68406
+    },
+    {
+        "Ciudad": "PIEDECUESTA",
+        "Code postal": 68547
+    },
+    {
+        "Ciudad": "BUENOS AIRES",
+        "Code postal": 73001
+    },
+    {
+        "Ciudad": "CHICORAL",
+        "Code postal": 73268
+    },
+    {
+        "Ciudad": "FLANDES",
+        "Code postal": 73275
+    },
+    {
+        "Ciudad": "MELGAR",
+        "Code postal": 73449
+    },
+    {
+        "Ciudad": "CALI",
+        "Code postal": 76001
+    },
+    {
+        "Ciudad": "ANDALUCIA",
+        "Code postal": 76036
+    },
+    {
+        "Ciudad": "BUGA",
+        "Code postal": 76111
+    },
+    {
+        "Ciudad": "BUGALAGRANDE",
+        "Code postal": 76113
+    },
+    {
+        "Ciudad": "CANDELARIA",
+        "Code postal": 76130
+    },
+    {
+        "Ciudad": "CARTAGO",
+        "Code postal": 76147
+    },
+    {
+        "Ciudad": "EL CERRITO",
+        "Code postal": 76248
+    },
+    {
+        "Ciudad": "FLORIDA",
+        "Code postal": 76275
+    },
+    {
+        "Ciudad": "GINEBRA",
+        "Code postal": 76306
+    },
+    {
+        "Ciudad": "GUABITAS",
+        "Code postal": 76318
+    },
+    {
+        "Ciudad": "JAMUNDI",
+        "Code postal": 76364
+    },
+    {
+        "Ciudad": "AMAIME",
+        "Code postal": 76520
+    },
+    {
+        "Ciudad": "PRADERA",
+        "Code postal": 76563
+    },
+    {
+        "Ciudad": "TULUA",
+        "Code postal": 76834
+    },
+    {
+        "Ciudad": "VIJES",
+        "Code postal": 76869
+    },
+    {
+        "Ciudad": "YUMBO",
+        "Code postal": 76892
+    },
+    {
+        "Ciudad": "Medellín",
+        "Code postal": 5001
+    },
+    {
+        "Ciudad": "BARBOSA",
+        "Code postal": 5079
+    },
+    {
+        "Ciudad": "BELLO",
+        "Code postal": 5088
+    },
+    {
+        "Ciudad": "CALDAS",
+        "Code postal": 5129
+    },
+    {
+        "Ciudad": "EL CARMEN DE VIBORAL",
+        "Code postal": 5148
+    },
+    {
+        "Ciudad": "COPACABANA",
+        "Code postal": 5212
+    },
+    {
+        "Ciudad": "ENVIGADO",
+        "Code postal": 5266
+    },
+    {
+        "Ciudad": "GIRARDOTA",
+        "Code postal": 5308
+    },
+    {
+        "Ciudad": "GUARNE",
+        "Code postal": 5318
+    },
+    {
+        "Ciudad": "ITAGUI",
+        "Code postal": 5360
+    },
+    {
+        "Ciudad": "LA CEJA",
+        "Code postal": 5376
+    },
+    {
+        "Ciudad": "LA ESTRELLA",
+        "Code postal": 5380
+    },
+    {
+        "Ciudad": "MARINILLA",
+        "Code postal": 5440
+    },
+    {
+        "Ciudad": "RETIRO",
+        "Code postal": 5607
+    },
+    {
+        "Ciudad": "RIONEGRO",
+        "Code postal": 5615
+    },
+    {
+        "Ciudad": "SABANETA",
+        "Code postal": 5631
+    },
+    {
+        "Ciudad": "EL SANTUARIO",
+        "Code postal": 5697
+    },
+    {
+        "Ciudad": "BUENAVISTA",
+        "Code postal": 15109
+    },
+    {
+        "Ciudad": "MANAURE (C)",
+        "Code postal": 20443
+    },
+    {
+        "Ciudad": "ALGARROBO",
+        "Code postal": 47030
+    },
+    {
+        "Ciudad": "BUCARASICA",
+        "Code postal": 54109
+    },
+    {
+        "Ciudad": "ACANDI",
+        "Code postal": 27006
+    },
+    {
+        "Ciudad": "BELEN DE BAJIRA",
+        "Code postal": 27615
+    },
+    {
+        "Ciudad": "LEGUIZAMO",
+        "Code postal": 86573
+    },
+    {
+        "Ciudad": "BAYUNCA",
+        "Code postal": 13001
+    },
+    {
+        "Ciudad": "TURBACO B",
+        "Code postal": 13836
+    },
+    {
+        "Ciudad": "CHIQUINQUIRA",
+        "Code postal": 15176
+    },
+    {
+        "Ciudad": "BELENCITO",
+        "Code postal": 15491
+    },
+    {
+        "Ciudad": "FLORENCIA",
+        "Code postal": 18001
+    },
+    {
+        "Ciudad": "POPAYAN",
+        "Code postal": 19001
+    },
+    {
+        "Ciudad": "MINA DRUMOND PRIBBENOW",
+        "Code postal": 20001
+    },
+    {
+        "Ciudad": "AGUACHICA",
+        "Code postal": 20011
+    },
+    {
+        "Ciudad": "SAN ALBERTO",
+        "Code postal": 20710
+    },
+    {
+        "Ciudad": "LOS GARZONES",
+        "Code postal": 23001
+    },
+    {
+        "Ciudad": "CERETE",
+        "Code postal": 23162
+    },
+    {
+        "Ciudad": "CIENAGA DE ORO",
+        "Code postal": 23189
+    },
+    {
+        "Ciudad": "SAHAGUN",
+        "Code postal": 23660
+    },
+    {
+        "Ciudad": "CHINAUTA",
+        "Code postal": 25290
+    },
+    {
+        "Ciudad": "UBATE",
+        "Code postal": 25843
+    },
+    {
+        "Ciudad": "CAMPOALEGRE",
+        "Code postal": 41132
+    },
+    {
+        "Ciudad": "GARZON",
+        "Code postal": 41298
+    },
+    {
+        "Ciudad": "GIGANTE",
+        "Code postal": 41306
+    },
+    {
+        "Ciudad": "GUADALUPE",
+        "Code postal": 41319
+    },
+    {
+        "Ciudad": "HOBO",
+        "Code postal": 41349
+    },
+    {
+        "Ciudad": "PITAL",
+        "Code postal": 41548
+    },
+    {
+        "Ciudad": "BRUSELAS",
+        "Code postal": 41551
+    },
+    {
+        "Ciudad": "AVISPERO",
+        "Code postal": 41770
+    },
+    {
+        "Ciudad": "VILLAVIEJA",
+        "Code postal": 41872
+    },
+    {
+        "Ciudad": "BURITACA",
+        "Code postal": 47001
+    },
+    {
+        "Ciudad": "CIENAGA",
+        "Code postal": 47189
+    },
+    {
+        "Ciudad": "FUNDACION",
+        "Code postal": 47288
+    },
+    {
+        "Ciudad": "PUEBLOVIEJO",
+        "Code postal": 47570
+    },
+    {
+        "Ciudad": "CATAMBUCO",
+        "Code postal": 52001
+    },
+    {
+        "Ciudad": "IPIALES",
+        "Code postal": 52356
+    },
+    {
+        "Ciudad": "CUCUTA",
+        "Code postal": 54001
+    },
+    {
+        "Ciudad": "LOS PATIOS",
+        "Code postal": 54405
+    },
+    {
+        "Ciudad": "PALO GORDO",
+        "Code postal": 54874
+    },
+    {
+        "Ciudad": "LA TEBAIDA",
+        "Code postal": 63401
+    },
+    {
+        "Ciudad": "MONTENEGRO",
+        "Code postal": 63470
+    },
+    {
+        "Ciudad": "QUIMBAYA",
+        "Code postal": 63594
+    },
+    {
+        "Ciudad": "LA VIRGINIA",
+        "Code postal": 66400
+    },
+    {
+        "Ciudad": "BARRANCABERMEJA",
+        "Code postal": 68081
+    },
+    {
+        "Ciudad": "SAN GIL",
+        "Code postal": 68679
+    },
+    {
+        "Ciudad": "SINCELEJO",
+        "Code postal": 70001
+    },
+    {
+        "Ciudad": "COROZAL",
+        "Code postal": 70215
+    },
+    {
+        "Ciudad": "MORROA",
+        "Code postal": 70473
+    },
+    {
+        "Ciudad": "SAMPUES",
+        "Code postal": 70670
+    },
+    {
+        "Ciudad": "NATAGAIMA",
+        "Code postal": 73483
+    },
+    {
+        "Ciudad": "ALCALA",
+        "Code postal": 76020
+    },
+    {
+        "Ciudad": "BUENAVENTURA",
+        "Code postal": 76109
+    },
+    {
+        "Ciudad": "CAICEDONIA",
+        "Code postal": 76122
+    },
+    {
+        "Ciudad": "LA UNION (V)",
+        "Code postal": 76400
+    },
+    {
+        "Ciudad": "LA VICTORIA (V)",
+        "Code postal": 76403
+    },
+    {
+        "Ciudad": "OBANDO",
+        "Code postal": 76497
+    },
+    {
+        "Ciudad": "ROLDANILLO",
+        "Code postal": 76622
+    },
+    {
+        "Ciudad": "SEVILLA",
+        "Code postal": 76736
+    },
+    {
+        "Ciudad": "YOTOCO",
+        "Code postal": 76890
+    },
+    {
+        "Ciudad": "LA CHAPARRERA",
+        "Code postal": 85001
+    },
+    {
+        "Ciudad": "APARTADÓ",
+        "Code postal": 5045
+    },
+    {
+        "Ciudad": "CAREPA",
+        "Code postal": 5147
+    },
+    {
+        "Ciudad": "CHIGORODÓ",
+        "Code postal": 5172
+    },
+    {
+        "Ciudad": "BARRANQUILLA",
+        "Code postal": 8001
+    },
+    {
+        "Ciudad": "GALAPA",
+        "Code postal": 8296
+    },
+    {
+        "Ciudad": "MALAMBO",
+        "Code postal": 8433
+    },
+    {
+        "Ciudad": "SOLEDAD",
+        "Code postal": 8758
+    },
+    {
+        "Ciudad": "CANTAGALLO",
+        "Code postal": 13160
+    },
+    {
+        "Ciudad": "COTORRA",
+        "Code postal": 23300
+    },
+    {
+        "Ciudad": "LOS CORDOBAS",
+        "Code postal": 23419
+    },
+    {
+        "Ciudad": "MOÑITOS",
+        "Code postal": 23500
+    },
+    {
+        "Ciudad": "PUERTO ESCONDIDO",
+        "Code postal": 23574
+    },
+    {
+        "Ciudad": "PUERTO PARRA",
+        "Code postal": 68573
+    },
+    {
+        "Ciudad": "CALAMAR",
+        "Code postal": 13140
+    },
+    {
+        "Ciudad": "CUBARA",
+        "Code postal": 15223
+    },
+    {
+        "Ciudad": "MONIQUIRA",
+        "Code postal": 15469
+    },
+    {
+        "Ciudad": "PUERTO BOYACA",
+        "Code postal": 15572
+    },
+    {
+        "Ciudad": "SANTANA",
+        "Code postal": 15686
+    },
+    {
+        "Ciudad": "AGUADAS",
+        "Code postal": 17013
+    },
+    {
+        "Ciudad": "ANSERMA",
+        "Code postal": 17042
+    },
+    {
+        "Ciudad": "ARANZAZU",
+        "Code postal": 17050
+    },
+    {
+        "Ciudad": "BELALCAZAR (CL)",
+        "Code postal": 17088
+    },
+    {
+        "Ciudad": "FILADELFIA",
+        "Code postal": 17272
+    },
+    {
+        "Ciudad": "GUARINOCITO",
+        "Code postal": 17380
+    },
+    {
+        "Ciudad": "MANZANARES",
+        "Code postal": 17433
+    },
+    {
+        "Ciudad": "MARMATO",
+        "Code postal": 17442
+    },
+    {
+        "Ciudad": "NEIRA",
+        "Code postal": 17486
+    },
+    {
+        "Ciudad": "PACORA",
+        "Code postal": 17513
+    },
+    {
+        "Ciudad": "BOLIVIA",
+        "Code postal": 17541
+    },
+    {
+        "Ciudad": "RIOSUCIO",
+        "Code postal": 17614
+    },
+    {
+        "Ciudad": "RISARALDA",
+        "Code postal": 17616
+    },
+    {
+        "Ciudad": "SALAMINA",
+        "Code postal": 17653
+    },
+    {
+        "Ciudad": "SUPIA",
+        "Code postal": 17777
+    },
+    {
+        "Ciudad": "VITERBO",
+        "Code postal": 17877
+    },
+    {
+        "Ciudad": "CARTAGENA DEL CHAIRA",
+        "Code postal": 18150
+    },
+    {
+        "Ciudad": "CURILLO",
+        "Code postal": 18205
+    },
+    {
+        "Ciudad": "LA MONTAÑITA",
+        "Code postal": 18410
+    },
+    {
+        "Ciudad": "VALPARAISO (CAQ)",
+        "Code postal": 18860
+    },
+    {
+        "Ciudad": "CASACAZA",
+        "Code postal": 20013
+    },
+    {
+        "Ciudad": "BECERRIL",
+        "Code postal": 20045
+    },
+    {
+        "Ciudad": "BOSCONIA",
+        "Code postal": 20060
+    },
+    {
+        "Ciudad": "CURUMANI",
+        "Code postal": 20228
+    },
+    {
+        "Ciudad": "LA JAGUA DE IBIRICO",
+        "Code postal": 20400
+    },
+    {
+        "Ciudad": "PAILITAS",
+        "Code postal": 20517
+    },
+    {
+        "Ciudad": "PELAYA",
+        "Code postal": 20550
+    },
+    {
+        "Ciudad": "RIO DE ORO",
+        "Code postal": 20614
+    },
+    {
+        "Ciudad": "LA PAZ",
+        "Code postal": 20621
+    },
+    {
+        "Ciudad": "SAN DIEGO",
+        "Code postal": 20750
+    },
+    {
+        "Ciudad": "LORICA",
+        "Code postal": 23417
+    },
+    {
+        "Ciudad": "PLANETA RICA",
+        "Code postal": 23555
+    },
+    {
+        "Ciudad": "SAN CARLOS",
+        "Code postal": 23678
+    },
+    {
+        "Ciudad": "PUERTO SALGAR",
+        "Code postal": 25572
+    },
+    {
+        "Ciudad": "QUIBDO",
+        "Code postal": 27001
+    },
+    {
+        "Ciudad": "YUTO",
+        "Code postal": 27050
+    },
+    {
+        "Ciudad": "CONDOTO",
+        "Code postal": 27205
+    },
+    {
+        "Ciudad": "ISTMINA",
+        "Code postal": 27361
+    },
+    {
+        "Ciudad": "TADO",
+        "Code postal": 27787
+    },
+    {
+        "Ciudad": "ACEVEDO",
+        "Code postal": 41006
+    },
+    {
+        "Ciudad": "AGRADO",
+        "Code postal": 41013
+    },
+    {
+        "Ciudad": "AIPE",
+        "Code postal": 41016
+    },
+    {
+        "Ciudad": "ALGECIRAS",
+        "Code postal": 41020
+    },
+    {
+        "Ciudad": "ALTAMIRA",
+        "Code postal": 41026
+    },
+    {
+        "Ciudad": "BARAYA",
+        "Code postal": 41078
+    },
+    {
+        "Ciudad": "SAN JOSE DE ISNOS",
+        "Code postal": 41359
+    },
+    {
+        "Ciudad": "LA ARGENTINA",
+        "Code postal": 41378
+    },
+    {
+        "Ciudad": "BELEN (H)",
+        "Code postal": 41396
+    },
+    {
+        "Ciudad": "OPORAPA",
+        "Code postal": 41503
+    },
+    {
+        "Ciudad": "PAICOL",
+        "Code postal": 41518
+    },
+    {
+        "Ciudad": "EL JUNCAL",
+        "Code postal": 41524
+    },
+    {
+        "Ciudad": "PALESTINA",
+        "Code postal": 41530
+    },
+    {
+        "Ciudad": "RIVERA",
+        "Code postal": 41615
+    },
+    {
+        "Ciudad": "SALADOBLANCO",
+        "Code postal": 41660
+    },
+    {
+        "Ciudad": "SAN AGUSTIN",
+        "Code postal": 41668
+    },
+    {
+        "Ciudad": "PACARNI",
+        "Code postal": 41797
+    },
+    {
+        "Ciudad": "TELLO",
+        "Code postal": 41799
+    },
+    {
+        "Ciudad": "TERUEL",
+        "Code postal": 41801
+    },
+    {
+        "Ciudad": "YAGUARA",
+        "Code postal": 41885
+    },
+    {
+        "Ciudad": "ANCUYA",
+        "Code postal": 52036
+    },
+    {
+        "Ciudad": "CONSACA",
+        "Code postal": 52207
+    },
+    {
+        "Ciudad": "CHACHAGÜI",
+        "Code postal": 52240
+    },
+    {
+        "Ciudad": "EL TAMBO (NA)",
+        "Code postal": 52260
+    },
+    {
+        "Ciudad": "LA FLORIDA (N)",
+        "Code postal": 52381
+    },
+    {
+        "Ciudad": "LINARES",
+        "Code postal": 52411
+    },
+    {
+        "Ciudad": "SAN BERNARDO",
+        "Code postal": 52683
+    },
+    {
+        "Ciudad": "ABREGO",
+        "Code postal": 54003
+    },
+    {
+        "Ciudad": "CONVENCION",
+        "Code postal": 54206
+    },
+    {
+        "Ciudad": "GRAMALOTE",
+        "Code postal": 54313
+    },
+    {
+        "Ciudad": "HACARI",
+        "Code postal": 54344
+    },
+    {
+        "Ciudad": "LA ESPERANZA",
+        "Code postal": 54385
+    },
+    {
+        "Ciudad": "AGUAS CLARAS",
+        "Code postal": 54498
+    },
+    {
+        "Ciudad": "PAMPLONA",
+        "Code postal": 54518
+    },
+    {
+        "Ciudad": "MONTEBELLO",
+        "Code postal": 54670
+    },
+    {
+        "Ciudad": "MUTATA",
+        "Code postal": 54800
+    },
+    {
+        "Ciudad": "FILANDIA",
+        "Code postal": 63272
+    },
+    {
+        "Ciudad": "SALENTO",
+        "Code postal": 63690
+    },
+    {
+        "Ciudad": "APIA",
+        "Code postal": 66045
+    },
+    {
+        "Ciudad": "BELEN DE UMBRIA",
+        "Code postal": 66088
+    },
+    {
+        "Ciudad": "GUATICA",
+        "Code postal": 66318
+    },
+    {
+        "Ciudad": "IRRA",
+        "Code postal": 66594
+    },
+    {
+        "Ciudad": "SANTUARIO",
+        "Code postal": 66687
+    },
+    {
+        "Ciudad": "ARATOCA",
+        "Code postal": 68051
+    },
+    {
+        "Ciudad": "BARBOSA",
+        "Code postal": 68077
+    },
+    {
+        "Ciudad": "CURITI",
+        "Code postal": 68229
+    },
+    {
+        "Ciudad": "EL PLAYON",
+        "Code postal": 68255
+    },
+    {
+        "Ciudad": "OIBA",
+        "Code postal": 68500
+    },
+    {
+        "Ciudad": "PINCHOTE",
+        "Code postal": 68549
+    },
+    {
+        "Ciudad": "PUENTE NACIONAL",
+        "Code postal": 68572
+    },
+    {
+        "Ciudad": "RIONEGRO",
+        "Code postal": 68615
+    },
+    {
+        "Ciudad": "SOCORRO",
+        "Code postal": 68755
+    },
+    {
+        "Ciudad": "VELEZ",
+        "Code postal": 68861
+    },
+    {
+        "Ciudad": "VILLANUEVA",
+        "Code postal": 68872
+    },
+    {
+        "Ciudad": "SAN PEDRO",
+        "Code postal": 70717
+    },
+    {
+        "Ciudad": "TOLU",
+        "Code postal": 70820
+    },
+    {
+        "Ciudad": "GUAYABAL",
+        "Code postal": 70823
+    },
+    {
+        "Ciudad": "ALVARADO",
+        "Code postal": 73026
+    },
+    {
+        "Ciudad": "AMBALEMA",
+        "Code postal": 73030
+    },
+    {
+        "Ciudad": "ARMERO",
+        "Code postal": 73055
+    },
+    {
+        "Ciudad": "CHAPARRAL",
+        "Code postal": 73168
+    },
+    {
+        "Ciudad": "FRESNO",
+        "Code postal": 73283
+    },
+    {
+        "Ciudad": "GUAMO",
+        "Code postal": 73319
+    },
+    {
+        "Ciudad": "HONDA",
+        "Code postal": 73349
+    },
+    {
+        "Ciudad": "LERIDA",
+        "Code postal": 73408
+    },
+    {
+        "Ciudad": "LIBANO",
+        "Code postal": 73411
+    },
+    {
+        "Ciudad": "MARIQUITA",
+        "Code postal": 73443
+    },
+    {
+        "Ciudad": "ORTEGA",
+        "Code postal": 73504
+    },
+    {
+        "Ciudad": "PRADO",
+        "Code postal": 73563
+    },
+    {
+        "Ciudad": "PURIFICACION",
+        "Code postal": 73585
+    },
+    {
+        "Ciudad": "SALDAÑA",
+        "Code postal": 73671
+    },
+    {
+        "Ciudad": "VENADILLO",
+        "Code postal": 73861
+    },
+    {
+        "Ciudad": "BORRERO AYERBE",
+        "Code postal": 76233
+    },
+    {
+        "Ciudad": "LA CUMBRE",
+        "Code postal": 76377
+    },
+    {
+        "Ciudad": "LA PAILA",
+        "Code postal": 76895
+    },
+    {
+        "Ciudad": "ARAUCA",
+        "Code postal": 81001
+    },
+    {
+        "Ciudad": "ARAUQUITA",
+        "Code postal": 81065
+    },
+    {
+        "Ciudad": "FORTUL",
+        "Code postal": 81300
+    },
+    {
+        "Ciudad": "SARAVENA",
+        "Code postal": 81736
+    },
+    {
+        "Ciudad": "TAME",
+        "Code postal": 81794
+    },
+    {
+        "Ciudad": "ANDES",
+        "Code postal": 5034
+    },
+    {
+        "Ciudad": "ANGELÓPOLIS",
+        "Code postal": 5036
+    },
+    {
+        "Ciudad": "CÁCERES",
+        "Code postal": 5120
+    },
+    {
+        "Ciudad": "CARACOL",
+        "Code postal": 5142
+    },
+    {
+        "Ciudad": "CISNEROS",
+        "Code postal": 5190
+    },
+    {
+        "Ciudad": "DABEIBA",
+        "Code postal": 5234
+    },
+    {
+        "Ciudad": "DON MATÍAS",
+        "Code postal": 5237
+    },
+    {
+        "Ciudad": "ENTRERRIOS",
+        "Code postal": 5264
+    },
+    {
+        "Ciudad": "FREDONIA",
+        "Code postal": 5282
+    },
+    {
+        "Ciudad": "JARDÍN",
+        "Code postal": 5364
+    },
+    {
+        "Ciudad": "JERICÓ",
+        "Code postal": 5368
+    },
+    {
+        "Ciudad": "LA UNIÓN",
+        "Code postal": 5400
+    },
+    {
+        "Ciudad": "MACEO",
+        "Code postal": 5425
+    },
+    {
+        "Ciudad": "PUEBLORRICO",
+        "Code postal": 5576
+    },
+    {
+        "Ciudad": "PUERTO BERRÍO",
+        "Code postal": 5579
+    },
+    {
+        "Ciudad": "REMEDIOS",
+        "Code postal": 5604
+    },
+    {
+        "Ciudad": "SAN PEDRO",
+        "Code postal": 5664
+    },
+    {
+        "Ciudad": "SAN ROQUE",
+        "Code postal": 5670
+    },
+    {
+        "Ciudad": "SANTA ROSA DE OSOS",
+        "Code postal": 5686
+    },
+    {
+        "Ciudad": "SEGOVIA",
+        "Code postal": 5736
+    },
+    {
+        "Ciudad": "TÁMESIS",
+        "Code postal": 5789
+    },
+    {
+        "Ciudad": "TARAZÁ",
+        "Code postal": 5790
+    },
+    {
+        "Ciudad": "TITIRIBÍ",
+        "Code postal": 5809
+    },
+    {
+        "Ciudad": "TURBO",
+        "Code postal": 5837
+    },
+    {
+        "Ciudad": "VALDIVIA",
+        "Code postal": 5854
+    },
+    {
+        "Ciudad": "VEGACHÍ",
+        "Code postal": 5858
+    },
+    {
+        "Ciudad": "YARUMAL",
+        "Code postal": 5887
+    },
+    {
+        "Ciudad": "YOLOMBÓ",
+        "Code postal": 5890
+    },
+    {
+        "Ciudad": "ZARAGOZA",
+        "Code postal": 5895
+    },
+    {
+        "Ciudad": "BARANOA",
+        "Code postal": 8078
+    },
+    {
+        "Ciudad": "CAMPO DE LA CRUZ",
+        "Code postal": 8137
+    },
+    {
+        "Ciudad": "CANDELARIA",
+        "Code postal": 8141
+    },
+    {
+        "Ciudad": "JUAN DE ACOSTA",
+        "Code postal": 8372
+    },
+    {
+        "Ciudad": "LURUACO",
+        "Code postal": 8421
+    },
+    {
+        "Ciudad": "MANATÍ",
+        "Code postal": 8436
+    },
+    {
+        "Ciudad": "PALMAR DE VARELA",
+        "Code postal": 8520
+    },
+    {
+        "Ciudad": "POLONUEVO",
+        "Code postal": 8558
+    },
+    {
+        "Ciudad": "PONEDERA",
+        "Code postal": 8560
+    },
+    {
+        "Ciudad": "PUERTO COLOMBIA",
+        "Code postal": 8573
+    },
+    {
+        "Ciudad": "REPELÓN",
+        "Code postal": 8606
+    },
+    {
+        "Ciudad": "SABANAGRANDE",
+        "Code postal": 8634
+    },
+    {
+        "Ciudad": "SABANALARGA",
+        "Code postal": 8638
+    },
+    {
+        "Ciudad": "SANTA LUCÍA",
+        "Code postal": 8675
+    },
+    {
+        "Ciudad": "SANTO TOMÁS",
+        "Code postal": 8685
+    },
+    {
+        "Ciudad": "SUAN",
+        "Code postal": 8770
+    },
+    {
+        "Ciudad": "TUBARÁ",
+        "Code postal": 8832
+    },
+    {
+        "Ciudad": "USIACURÍ",
+        "Code postal": 8849
+    },
+    {
+        "Ciudad": "EL CARMEN DE BOLIVAR",
+        "Code postal": 13244
+    },
+    {
+        "Ciudad": "CASCAJAL",
+        "Code postal": 13430
+    },
+    {
+        "Ciudad": "SAN CRISTOBAL",
+        "Code postal": 13654
+    },
+    {
+        "Ciudad": "SAN JUAN NEPOMUCENO",
+        "Code postal": 13657
+    },
+    {
+        "Ciudad": "ZAMBRANO",
+        "Code postal": 13894
+    },
+    {
+        "Ciudad": "COMBITA",
+        "Code postal": 15204
+    },
+    {
+        "Ciudad": "VILLA DE LEYVA",
+        "Code postal": 15407
+    },
+    {
+        "Ciudad": "SAN JOSE DE PARE",
+        "Code postal": 15664
+    },
+    {
+        "Ciudad": "LA MERCED",
+        "Code postal": 17388
+    },
+    {
+        "Ciudad": "MARQUETALIA",
+        "Code postal": 17444
+    },
+    {
+        "Ciudad": "MARULANDA",
+        "Code postal": 17446
+    },
+    {
+        "Ciudad": "ARAUCA",
+        "Code postal": 17524
+    },
+    {
+        "Ciudad": "SAMANA",
+        "Code postal": 17662
+    },
+    {
+        "Ciudad": "ALBANIA",
+        "Code postal": 18029
+    },
+    {
+        "Ciudad": "BELEN DE LOS ANDAQUIES",
+        "Code postal": 18094
+    },
+    {
+        "Ciudad": "EL DONCELLO",
+        "Code postal": 18247
+    },
+    {
+        "Ciudad": "EL PAUJIL",
+        "Code postal": 18256
+    },
+    {
+        "Ciudad": "MORELIA",
+        "Code postal": 18479
+    },
+    {
+        "Ciudad": "PUERTO RICO",
+        "Code postal": 18592
+    },
+    {
+        "Ciudad": "CAMPO HERMOSO",
+        "Code postal": 18753
+    },
+    {
+        "Ciudad": "PIENDAMO",
+        "Code postal": 19548
+    },
+    {
+        "Ciudad": "CHIRIGUANA",
+        "Code postal": 20178
+    },
+    {
+        "Ciudad": "LA GLORIA",
+        "Code postal": 20383
+    },
+    {
+        "Ciudad": "CERROMATOSO",
+        "Code postal": 23466
+    },
+    {
+        "Ciudad": "PUEBLO NUEVO",
+        "Code postal": 23570
+    },
+    {
+        "Ciudad": "SAN JOSE DE URE",
+        "Code postal": 23682
+    },
+    {
+        "Ciudad": "GAMA",
+        "Code postal": 25299
+    },
+    {
+        "Ciudad": "GUTIERREZ",
+        "Code postal": 25339
+    },
+    {
+        "Ciudad": "JERUSALEN",
+        "Code postal": 25368
+    },
+    {
+        "Ciudad": "LA VEGA",
+        "Code postal": 25402
+    },
+    {
+        "Ciudad": "NIMAIMA",
+        "Code postal": 25489
+    },
+    {
+        "Ciudad": "VENECIA (C)",
+        "Code postal": 25506
+    },
+    {
+        "Ciudad": "QUEBRADANEGRA",
+        "Code postal": 25592
+    },
+    {
+        "Ciudad": "PUEBLO NUEVO",
+        "Code postal": 25653
+    },
+    {
+        "Ciudad": "TIBACUY",
+        "Code postal": 25805
+    },
+    {
+        "Ciudad": "COLOMBIA",
+        "Code postal": 41206
+    },
+    {
+        "Ciudad": "IQUIRA",
+        "Code postal": 41357
+    },
+    {
+        "Ciudad": "NATAGA",
+        "Code postal": 41483
+    },
+    {
+        "Ciudad": "SANTA MARIA",
+        "Code postal": 41676
+    },
+    {
+        "Ciudad": "TARQUI",
+        "Code postal": 41791
+    },
+    {
+        "Ciudad": "RIOHACHA",
+        "Code postal": 44001
+    },
+    {
+        "Ciudad": "BARRANCAS",
+        "Code postal": 44078
+    },
+    {
+        "Ciudad": "DISTRACCION",
+        "Code postal": 44098
+    },
+    {
+        "Ciudad": "EL MOLINO",
+        "Code postal": 44110
+    },
+    {
+        "Ciudad": "FONSECA",
+        "Code postal": 44279
+    },
+    {
+        "Ciudad": "LA JAGUA DEL PILAR",
+        "Code postal": 44420
+    },
+    {
+        "Ciudad": "MAICAO",
+        "Code postal": 44430
+    },
+    {
+        "Ciudad": "SAN JUAN DEL CESAR",
+        "Code postal": 44650
+    },
+    {
+        "Ciudad": "URUMITA",
+        "Code postal": 44855
+    },
+    {
+        "Ciudad": "VILLANUEVA",
+        "Code postal": 44874
+    },
+    {
+        "Ciudad": "PLATO",
+        "Code postal": 47555
+    },
+    {
+        "Ciudad": "ACACIAS",
+        "Code postal": 50006
+    },
+    {
+        "Ciudad": "CUBARRAL",
+        "Code postal": 50223
+    },
+    {
+        "Ciudad": "CUMARAL",
+        "Code postal": 50226
+    },
+    {
+        "Ciudad": "GRANADA (M)",
+        "Code postal": 50313
+    },
+    {
+        "Ciudad": "GUAMAL",
+        "Code postal": 50318
+    },
+    {
+        "Ciudad": "PUERTO GAITAN",
+        "Code postal": 50568
+    },
+    {
+        "Ciudad": "PACHAQUIARO",
+        "Code postal": 50573
+    },
+    {
+        "Ciudad": "RESTREPO",
+        "Code postal": 50606
+    },
+    {
+        "Ciudad": "SAN JUAN DE ARAMA",
+        "Code postal": 50683
+    },
+    {
+        "Ciudad": "SAN MARTIN",
+        "Code postal": 50689
+    },
+    {
+        "Ciudad": "EL CHARCO",
+        "Code postal": 52250
+    },
+    {
+        "Ciudad": "PIEDRANCHA",
+        "Code postal": 52435
+    },
+    {
+        "Ciudad": "RICAURTE (Na)",
+        "Code postal": 52612
+    },
+    {
+        "Ciudad": "LLORENTE",
+        "Code postal": 52835
+    },
+    {
+        "Ciudad": "ALBAN",
+        "Code postal": 52838
+    },
+    {
+        "Ciudad": "BOCHALEMA",
+        "Code postal": 54099
+    },
+    {
+        "Ciudad": "PAMPLONITA",
+        "Code postal": 54520
+    },
+    {
+        "Ciudad": "SARDINATA",
+        "Code postal": 54720
+    },
+    {
+        "Ciudad": "SAN BERNARDO DE BATA",
+        "Code postal": 54820
+    },
+    {
+        "Ciudad": "VILLA CARO",
+        "Code postal": 54871
+    },
+    {
+        "Ciudad": "BALBOA",
+        "Code postal": 66075
+    },
+    {
+        "Ciudad": "LA CELIA",
+        "Code postal": 66383
+    },
+    {
+        "Ciudad": "MARSELLA",
+        "Code postal": 66440
+    },
+    {
+        "Ciudad": "MISTRATO",
+        "Code postal": 66456
+    },
+    {
+        "Ciudad": "BARICHARA",
+        "Code postal": 68079
+    },
+    {
+        "Ciudad": "CHARALA",
+        "Code postal": 68167
+    },
+    {
+        "Ciudad": "GUEPSA",
+        "Code postal": 68327
+    },
+    {
+        "Ciudad": "MOGOTES",
+        "Code postal": 68464
+    },
+    {
+        "Ciudad": "SABANA DE TORRES",
+        "Code postal": 68655
+    },
+    {
+        "Ciudad": "OLIVAL",
+        "Code postal": 68770
+    },
+    {
+        "Ciudad": "CAIMITO",
+        "Code postal": 70124
+    },
+    {
+        "Ciudad": "LOS PALMITOS",
+        "Code postal": 70418
+    },
+    {
+        "Ciudad": "OVEJAS",
+        "Code postal": 70508
+    },
+    {
+        "Ciudad": "CAJAMARCA",
+        "Code postal": 73124
+    },
+    {
+        "Ciudad": "HERVEO",
+        "Code postal": 73347
+    },
+    {
+        "Ciudad": "ANSERMA NUEVO",
+        "Code postal": 76041
+    },
+    {
+        "Ciudad": "AGUAZUL",
+        "Code postal": 85010
+    },
+    {
+        "Ciudad": "MONTERREY",
+        "Code postal": 85162
+    },
+    {
+        "Ciudad": "PASO CUSIANA",
+        "Code postal": 85410
+    },
+    {
+        "Ciudad": "VILLANUEVA (C)",
+        "Code postal": 85440
+    },
+    {
+        "Ciudad": "AMAGÁ",
+        "Code postal": 5030
+    },
+    {
+        "Ciudad": "SANTAFÉ DE ANTIOQUIA",
+        "Code postal": 5042
+    },
+    {
+        "Ciudad": "BETULIA",
+        "Code postal": 5093
+    },
+    {
+        "Ciudad": "CIUDAD BOLÍVAR",
+        "Code postal": 5101
+    },
+    {
+        "Ciudad": "CARAMANTA",
+        "Code postal": 5145
+    },
+    {
+        "Ciudad": "CAUCASIA",
+        "Code postal": 5154
+    },
+    {
+        "Ciudad": "CONCORDIA",
+        "Code postal": 5209
+    },
+    {
+        "Ciudad": "EL BAGRE",
+        "Code postal": 5250
+    },
+    {
+        "Ciudad": "GRANADA",
+        "Code postal": 5313
+    },
+    {
+        "Ciudad": "GUATAPE",
+        "Code postal": 5321
+    },
+    {
+        "Ciudad": "HISPANIA",
+        "Code postal": 5353
+    },
+    {
+        "Ciudad": "LA PINTADA",
+        "Code postal": 5390
+    },
+    {
+        "Ciudad": "MUTATÁ",
+        "Code postal": 5480
+    },
+    {
+        "Ciudad": "NECOCLÍ",
+        "Code postal": 5490
+    },
+    {
+        "Ciudad": "SALGAR",
+        "Code postal": 5642
+    },
+    {
+        "Ciudad": "SAN CARLOS",
+        "Code postal": 5649
+    },
+    {
+        "Ciudad": "SAN JERÓNIMO",
+        "Code postal": 5656
+    },
+    {
+        "Ciudad": "SAN LUIS",
+        "Code postal": 5660
+    },
+    {
+        "Ciudad": "SAN PEDRO DE URABA",
+        "Code postal": 5665
+    },
+    {
+        "Ciudad": "SAN RAFAEL",
+        "Code postal": 5667
+    },
+    {
+        "Ciudad": "SAN VICENTE",
+        "Code postal": 5674
+    },
+    {
+        "Ciudad": "SANTA BÁRBARA",
+        "Code postal": 5679
+    },
+    {
+        "Ciudad": "SONSON",
+        "Code postal": 5756
+    },
+    {
+        "Ciudad": "SOPETRÁN",
+        "Code postal": 5761
+    },
+    {
+        "Ciudad": "URAMITA",
+        "Code postal": 5842
+    },
+    {
+        "Ciudad": "URRAO",
+        "Code postal": 5847
+    },
+    {
+        "Ciudad": "VENECIA",
+        "Code postal": 5861
+    },
+    {
+        "Ciudad": "YALÍ",
+        "Code postal": 5885
+    },
+    {
+        "Ciudad": "CORDOBA",
+        "Code postal": 13212
+    },
+    {
+        "Ciudad": "MORALES (B)",
+        "Code postal": 13473
+    },
+    {
+        "Ciudad": "RIO VIEJO",
+        "Code postal": 13600
+    },
+    {
+        "Ciudad": "COVARACHIA",
+        "Code postal": 15218
+    },
+    {
+        "Ciudad": "SOTAQUIRA",
+        "Code postal": 15763
+    },
+    {
+        "Ciudad": "TINJACA",
+        "Code postal": 15808
+    },
+    {
+        "Ciudad": "NORCASIA",
+        "Code postal": 17495
+    },
+    {
+        "Ciudad": "VICTORIA",
+        "Code postal": 17867
+    },
+    {
+        "Ciudad": "SOLITA",
+        "Code postal": 18785
+    },
+    {
+        "Ciudad": "ALMAGUER",
+        "Code postal": 19022
+    },
+    {
+        "Ciudad": "BALBOA (C)",
+        "Code postal": 19075
+    },
+    {
+        "Ciudad": "BUENOS AIRES",
+        "Code postal": 19110
+    },
+    {
+        "Ciudad": "CAJIBIO",
+        "Code postal": 19130
+    },
+    {
+        "Ciudad": "CALDONO",
+        "Code postal": 19137
+    },
+    {
+        "Ciudad": "EL TAMBO (CA)",
+        "Code postal": 19256
+    },
+    {
+        "Ciudad": "FLORENCIA",
+        "Code postal": 19290
+    },
+    {
+        "Ciudad": "JAMBALO",
+        "Code postal": 19364
+    },
+    {
+        "Ciudad": "BELALCAZAR (CA)",
+        "Code postal": 19517
+    },
+    {
+        "Ciudad": "COCONUCO",
+        "Code postal": 19585
+    },
+    {
+        "Ciudad": "ROSAS",
+        "Code postal": 19622
+    },
+    {
+        "Ciudad": "PAISPAMBA",
+        "Code postal": 19760
+    },
+    {
+        "Ciudad": "SUAREZ",
+        "Code postal": 19780
+    },
+    {
+        "Ciudad": "CHIMICHAGUA",
+        "Code postal": 20175
+    },
+    {
+        "Ciudad": "EL PASO",
+        "Code postal": 20250
+    },
+    {
+        "Ciudad": "PUEBLO BELLO",
+        "Code postal": 20570
+    },
+    {
+        "Ciudad": "TAMALAMEQUE",
+        "Code postal": 20787
+    },
+    {
+        "Ciudad": "AYAPEL",
+        "Code postal": 23068
+    },
+    {
+        "Ciudad": "BUENAVISTA (COR)",
+        "Code postal": 23079
+    },
+    {
+        "Ciudad": "CHIMA (C)",
+        "Code postal": 23168
+    },
+    {
+        "Ciudad": "CHINU",
+        "Code postal": 23182
+    },
+    {
+        "Ciudad": "LA APARTADA Y LA FRONTERA",
+        "Code postal": 23350
+    },
+    {
+        "Ciudad": "MOMIL",
+        "Code postal": 23464
+    },
+    {
+        "Ciudad": "PUERTO LIBERTADOR",
+        "Code postal": 23580
+    },
+    {
+        "Ciudad": "PURISIMA",
+        "Code postal": 23586
+    },
+    {
+        "Ciudad": "SAN ANDRES DE SOTAVENTO",
+        "Code postal": 23670
+    },
+    {
+        "Ciudad": "EL PORVENIR (C)",
+        "Code postal": 23672
+    },
+    {
+        "Ciudad": "SAN BERNARDO DEL VIENTO",
+        "Code postal": 23675
+    },
+    {
+        "Ciudad": "CARRILLO",
+        "Code postal": 23686
+    },
+    {
+        "Ciudad": "VALENCIA",
+        "Code postal": 23855
+    },
+    {
+        "Ciudad": "AGUA DE DIOS",
+        "Code postal": 25001
+    },
+    {
+        "Ciudad": "ANAPOIMA",
+        "Code postal": 25035
+    },
+    {
+        "Ciudad": "ANOLAIMA",
+        "Code postal": 25040
+    },
+    {
+        "Ciudad": "EL COLEGIO (MESITAS)",
+        "Code postal": 25245
+    },
+    {
+        "Ciudad": "GACHETA",
+        "Code postal": 25297
+    },
+    {
+        "Ciudad": "GUADUAS",
+        "Code postal": 25320
+    },
+    {
+        "Ciudad": "LA MESA",
+        "Code postal": 25386
+    },
+    {
+        "Ciudad": "PACHO",
+        "Code postal": 25513
+    },
+    {
+        "Ciudad": "PARATEBUENO",
+        "Code postal": 25530
+    },
+    {
+        "Ciudad": "QUIPILE",
+        "Code postal": 25596
+    },
+    {
+        "Ciudad": "APULO",
+        "Code postal": 25599
+    },
+    {
+        "Ciudad": "SAN FRANCISCO",
+        "Code postal": 25658
+    },
+    {
+        "Ciudad": "SASAIMA",
+        "Code postal": 25718
+    },
+    {
+        "Ciudad": "SILVANIA",
+        "Code postal": 25743
+    },
+    {
+        "Ciudad": "SIMIJACA",
+        "Code postal": 25745
+    },
+    {
+        "Ciudad": "SUPATA",
+        "Code postal": 25777
+    },
+    {
+        "Ciudad": "SUSA",
+        "Code postal": 25779
+    },
+    {
+        "Ciudad": "LA GRAN VÍA",
+        "Code postal": 25797
+    },
+    {
+        "Ciudad": "TOCAIMA",
+        "Code postal": 25815
+    },
+    {
+        "Ciudad": "UNE",
+        "Code postal": 25845
+    },
+    {
+        "Ciudad": "VERGARA",
+        "Code postal": 25862
+    },
+    {
+        "Ciudad": "VILLAGOMEZ",
+        "Code postal": 25871
+    },
+    {
+        "Ciudad": "VILLETA",
+        "Code postal": 25875
+    },
+    {
+        "Ciudad": "BELÉN DE BAJIRÁ",
+        "Code postal": 27086
+    },
+    {
+        "Ciudad": "EL CARMEN DE ATRATO",
+        "Code postal": 27245
+    },
+    {
+        "Ciudad": "TIMANA",
+        "Code postal": 41807
+    },
+    {
+        "Ciudad": "CERRO SAN ANTONIO",
+        "Code postal": 47161
+    },
+    {
+        "Ciudad": "CHIVOLO",
+        "Code postal": 47170
+    },
+    {
+        "Ciudad": "EL BANCO",
+        "Code postal": 47245
+    },
+    {
+        "Ciudad": "PIVIJAY",
+        "Code postal": 47551
+    },
+    {
+        "Ciudad": "SAN ANGEL",
+        "Code postal": 47660
+    },
+    {
+        "Ciudad": "TENERIFE",
+        "Code postal": 47798
+    },
+    {
+        "Ciudad": "ABEJORRAL",
+        "Code postal": 50020
+    },
+    {
+        "Ciudad": "CASTILLA LA NUEVA",
+        "Code postal": 50150
+    },
+    {
+        "Ciudad": "VISTAHERMOSA",
+        "Code postal": 50711
+    },
+    {
+        "Ciudad": "SAN JOSE",
+        "Code postal": 52019
+    },
+    {
+        "Ciudad": "ALDANA",
+        "Code postal": 52022
+    },
+    {
+        "Ciudad": "BELEN",
+        "Code postal": 52083
+    },
+    {
+        "Ciudad": "BUESACO",
+        "Code postal": 52110
+    },
+    {
+        "Ciudad": "GENOVA (N)",
+        "Code postal": 52203
+    },
+    {
+        "Ciudad": "CONTADERO",
+        "Code postal": 52210
+    },
+    {
+        "Ciudad": "CORDOBA N",
+        "Code postal": 52215
+    },
+    {
+        "Ciudad": "CARLOSAMA",
+        "Code postal": 52224
+    },
+    {
+        "Ciudad": "CUMBAL",
+        "Code postal": 52227
+    },
+    {
+        "Ciudad": "CUMBITARA",
+        "Code postal": 52233
+    },
+    {
+        "Ciudad": "EL PEÑOL",
+        "Code postal": 52254
+    },
+    {
+        "Ciudad": "EL ROSARIO",
+        "Code postal": 52256
+    },
+    {
+        "Ciudad": "EL TABLÓN DE GOMEZ",
+        "Code postal": 52258
+    },
+    {
+        "Ciudad": "FUNES",
+        "Code postal": 52287
+    },
+    {
+        "Ciudad": "GUACHUCAL",
+        "Code postal": 52317
+    },
+    {
+        "Ciudad": "GUALMATÁN",
+        "Code postal": 52323
+    },
+    {
+        "Ciudad": "IMUES",
+        "Code postal": 52354
+    },
+    {
+        "Ciudad": "LA CRUZ",
+        "Code postal": 52378
+    },
+    {
+        "Ciudad": "LA LLANADA",
+        "Code postal": 52385
+    },
+    {
+        "Ciudad": "LA UNION",
+        "Code postal": 52399
+    },
+    {
+        "Ciudad": "LEIVA",
+        "Code postal": 52405
+    },
+    {
+        "Ciudad": "OSPINA",
+        "Code postal": 52506
+    },
+    {
+        "Ciudad": "POLICARPA",
+        "Code postal": 52540
+    },
+    {
+        "Ciudad": "CUASPUD NUCLEO",
+        "Code postal": 52560
+    },
+    {
+        "Ciudad": "PUPIALES",
+        "Code postal": 52585
+    },
+    {
+        "Ciudad": "SAMANIEGO",
+        "Code postal": 52678
+    },
+    {
+        "Ciudad": "SAN BERNARDO",
+        "Code postal": 52685
+    },
+    {
+        "Ciudad": "SAN LORENZO",
+        "Code postal": 52687
+    },
+    {
+        "Ciudad": "SAN PABLO",
+        "Code postal": 52693
+    },
+    {
+        "Ciudad": "GUACHAVES",
+        "Code postal": 52699
+    },
+    {
+        "Ciudad": "SAPUYES",
+        "Code postal": 52720
+    },
+    {
+        "Ciudad": "TANGUA",
+        "Code postal": 52788
+    },
+    {
+        "Ciudad": "CACOTA",
+        "Code postal": 54125
+    },
+    {
+        "Ciudad": "CACHIRA",
+        "Code postal": 54128
+    },
+    {
+        "Ciudad": "CHITAGA",
+        "Code postal": 54174
+    },
+    {
+        "Ciudad": "DURANIA",
+        "Code postal": 54239
+    },
+    {
+        "Ciudad": "HERRAN",
+        "Code postal": 54347
+    },
+    {
+        "Ciudad": "LABATECA",
+        "Code postal": 54377
+    },
+    {
+        "Ciudad": "MUTISCUA",
+        "Code postal": 54480
+    },
+    {
+        "Ciudad": "RAGONVALIA",
+        "Code postal": 54599
+    },
+    {
+        "Ciudad": "SAN CAYETANO",
+        "Code postal": 54673
+    },
+    {
+        "Ciudad": "SILOS",
+        "Code postal": 54743
+    },
+    {
+        "Ciudad": "BUENAVISTA",
+        "Code postal": 63111
+    },
+    {
+        "Ciudad": "CORDOBA",
+        "Code postal": 63212
+    },
+    {
+        "Ciudad": "GENOVA (Q)",
+        "Code postal": 63302
+    },
+    {
+        "Ciudad": "PIJAO",
+        "Code postal": 63548
+    },
+    {
+        "Ciudad": "PUEBLO RICO",
+        "Code postal": 66572
+    },
+    {
+        "Ciudad": "CIMITARRA",
+        "Code postal": 68190
+    },
+    {
+        "Ciudad": "EL CARMEN DE CHUCURI",
+        "Code postal": 68235
+    },
+    {
+        "Ciudad": "GALERAS",
+        "Code postal": 70235
+    },
+    {
+        "Ciudad": "SAN BENITO ABAD",
+        "Code postal": 70678
+    },
+    {
+        "Ciudad": "SAN MARCOS",
+        "Code postal": 70708
+    },
+    {
+        "Ciudad": "SINCE",
+        "Code postal": 70742
+    },
+    {
+        "Ciudad": "CARMEN DE APICALA",
+        "Code postal": 73148
+    },
+    {
+        "Ciudad": "CASABIANCA",
+        "Code postal": 73152
+    },
+    {
+        "Ciudad": "FALAN",
+        "Code postal": 73270
+    },
+    {
+        "Ciudad": "PALOCABILDO",
+        "Code postal": 73520
+    },
+    {
+        "Ciudad": "PIEDRAS",
+        "Code postal": 73547
+    },
+    {
+        "Ciudad": "ROVIRA",
+        "Code postal": 73624
+    },
+    {
+        "Ciudad": "VALLE DE SAN JUAN",
+        "Code postal": 73854
+    },
+    {
+        "Ciudad": "MANI",
+        "Code postal": 85139
+    },
+    {
+        "Ciudad": "PAZ DE ARIPORO",
+        "Code postal": 85250
+    },
+    {
+        "Ciudad": "PORE",
+        "Code postal": 85263
+    },
+    {
+        "Ciudad": "SABANALARGA",
+        "Code postal": 85300
+    },
+    {
+        "Ciudad": "SAN LUIS DE PALENQUE",
+        "Code postal": 85325
+    },
+    {
+        "Ciudad": "TRINIDAD",
+        "Code postal": 85430
+    },
+    {
+        "Ciudad": "MOCOA",
+        "Code postal": 86001
+    },
+    {
+        "Ciudad": "COLON",
+        "Code postal": 86219
+    },
+    {
+        "Ciudad": "ORITO",
+        "Code postal": 86320
+    },
+    {
+        "Ciudad": "PUERTO ASIS",
+        "Code postal": 86568
+    },
+    {
+        "Ciudad": "PUERTO CAICEDO",
+        "Code postal": 86569
+    },
+    {
+        "Ciudad": "PUERTO GUZMAN",
+        "Code postal": 86571
+    },
+    {
+        "Ciudad": "SIBUNDOY",
+        "Code postal": 86749
+    },
+    {
+        "Ciudad": "LA HORMIGA",
+        "Code postal": 86865
+    },
+    {
+        "Ciudad": "VILLAGARZON",
+        "Code postal": 86885
+    },
+    {
+        "Ciudad": "ABEJORRAL",
+        "Code postal": 5002
+    },
+    {
+        "Ciudad": "ABRIAQUÍ",
+        "Code postal": 5004
+    },
+    {
+        "Ciudad": "ALEJANDRÍA",
+        "Code postal": 5021
+    },
+    {
+        "Ciudad": "ANGOSTURA",
+        "Code postal": 5038
+    },
+    {
+        "Ciudad": "ANORÍ",
+        "Code postal": 5040
+    },
+    {
+        "Ciudad": "ANZA",
+        "Code postal": 5044
+    },
+    {
+        "Ciudad": "ARGELIA",
+        "Code postal": 5055
+    },
+    {
+        "Ciudad": "ARMENIA",
+        "Code postal": 5059
+    },
+    {
+        "Ciudad": "BELMIRA",
+        "Code postal": 5086
+    },
+    {
+        "Ciudad": "BETANIA",
+        "Code postal": 5091
+    },
+    {
+        "Ciudad": "BRICEÑO",
+        "Code postal": 5107
+    },
+    {
+        "Ciudad": "BURITICÁ",
+        "Code postal": 5113
+    },
+    {
+        "Ciudad": "CAICEDO",
+        "Code postal": 5125
+    },
+    {
+        "Ciudad": "CAMPAMENTO",
+        "Code postal": 5134
+    },
+    {
+        "Ciudad": "CAÑASGORDAS",
+        "Code postal": 5138
+    },
+    {
+        "Ciudad": "COCORNÁ",
+        "Code postal": 5197
+    },
+    {
+        "Ciudad": "CONCEPCIÓN",
+        "Code postal": 5206
+    },
+    {
+        "Ciudad": "EBÉJICO",
+        "Code postal": 5240
+    },
+    {
+        "Ciudad": "FRONTINO",
+        "Code postal": 5284
+    },
+    {
+        "Ciudad": "GIRALDO",
+        "Code postal": 5306
+    },
+    {
+        "Ciudad": "HELICONIA",
+        "Code postal": 5347
+    },
+    {
+        "Ciudad": "ITUANGO",
+        "Code postal": 5361
+    },
+    {
+        "Ciudad": "LIBORINA",
+        "Code postal": 5411
+    },
+    {
+        "Ciudad": "MONTEBELLO",
+        "Code postal": 5467
+    },
+    {
+        "Ciudad": "MURINDÓ",
+        "Code postal": 5475
+    },
+    {
+        "Ciudad": "NARIÑO",
+        "Code postal": 5483
+    },
+    {
+        "Ciudad": "NECHÍ",
+        "Code postal": 5495
+    },
+    {
+        "Ciudad": "OLAYA",
+        "Code postal": 5501
+    },
+    {
+        "Ciudad": "PEQUE",
+        "Code postal": 5543
+    },
+    {
+        "Ciudad": "PUERTO NARE",
+        "Code postal": 5585
+    },
+    {
+        "Ciudad": "PUERTO TRIUNFO",
+        "Code postal": 5591
+    },
+    {
+        "Ciudad": "SABANALARGA",
+        "Code postal": 5628
+    },
+    {
+        "Ciudad": "SAN ANDRÉS DE CUERQUÍA",
+        "Code postal": 5647
+    },
+    {
+        "Ciudad": "SAN FRANCISCO",
+        "Code postal": 5652
+    },
+    {
+        "Ciudad": "SAN JOSÉ DE LA MONTAÑA",
+        "Code postal": 5658
+    },
+    {
+        "Ciudad": "SANTO DOMINGO",
+        "Code postal": 5690
+    },
+    {
+        "Ciudad": "TARSO",
+        "Code postal": 5792
+    },
+    {
+        "Ciudad": "TOLEDO",
+        "Code postal": 5819
+    },
+    {
+        "Ciudad": "VALPARAÍSO",
+        "Code postal": 5856
+    },
+    {
+        "Ciudad": "YONDÓ",
+        "Code postal": 5893
+    },
+    {
+        "Ciudad": "ARENAL",
+        "Code postal": 13042
+    },
+    {
+        "Ciudad": "ARJONA B",
+        "Code postal": 13052
+    },
+    {
+        "Ciudad": "CLEMENCIA B",
+        "Code postal": 13222
+    },
+    {
+        "Ciudad": "MAHATES",
+        "Code postal": 13433
+    },
+    {
+        "Ciudad": "MARIA LA BAJA B",
+        "Code postal": 13442
+    },
+    {
+        "Ciudad": "MOMPOS",
+        "Code postal": 13468
+    },
+    {
+        "Ciudad": "SAN ESTANISLAO",
+        "Code postal": 13647
+    },
+    {
+        "Ciudad": "SANTA CATALINA",
+        "Code postal": 13673
+    },
+    {
+        "Ciudad": "SOPLAVIENTO B",
+        "Code postal": 13760
+    },
+    {
+        "Ciudad": "TALAIGUA NUEVO",
+        "Code postal": 13780
+    },
+    {
+        "Ciudad": "TURBANA",
+        "Code postal": 13838
+    },
+    {
+        "Ciudad": "VILLANUEVA",
+        "Code postal": 13873
+    },
+    {
+        "Ciudad": "CORRALES",
+        "Code postal": 15215
+    },
+    {
+        "Ciudad": "CUITIVA",
+        "Code postal": 15226
+    },
+    {
+        "Ciudad": "FLORESTA",
+        "Code postal": 15276
+    },
+    {
+        "Ciudad": "GAMEZA",
+        "Code postal": 15296
+    },
+    {
+        "Ciudad": "PESCA",
+        "Code postal": 15542
+    },
+    {
+        "Ciudad": "SANTA ROSA DE VITERBO",
+        "Code postal": 15693
+    },
+    {
+        "Ciudad": "VENTAQUEMADA",
+        "Code postal": 15861
+    },
+    {
+        "Ciudad": "SAN JOSE DEL FRAGUA",
+        "Code postal": 18610
+    },
+    {
+        "Ciudad": "ARGELIA (C)",
+        "Code postal": 19050
+    },
+    {
+        "Ciudad": "BOLIVAR (C)",
+        "Code postal": 19100
+    },
+    {
+        "Ciudad": "CORINTO",
+        "Code postal": 19212
+    },
+    {
+        "Ciudad": "GUACHENE",
+        "Code postal": 19300
+    },
+    {
+        "Ciudad": "INZA",
+        "Code postal": 19355
+    },
+    {
+        "Ciudad": "LA SIERRA",
+        "Code postal": 19392
+    },
+    {
+        "Ciudad": "LA VEGA",
+        "Code postal": 19397
+    },
+    {
+        "Ciudad": "MERCADERES",
+        "Code postal": 19450
+    },
+    {
+        "Ciudad": "MORALES (C)",
+        "Code postal": 19473
+    },
+    {
+        "Ciudad": "PADILLA",
+        "Code postal": 19513
+    },
+    {
+        "Ciudad": "EL BORDO",
+        "Code postal": 19532
+    },
+    {
+        "Ciudad": "SILVIA",
+        "Code postal": 19743
+    },
+    {
+        "Ciudad": "TIMBIO",
+        "Code postal": 19807
+    },
+    {
+        "Ciudad": "TOTORO",
+        "Code postal": 19824
+    },
+    {
+        "Ciudad": "ASTREA",
+        "Code postal": 20032
+    },
+    {
+        "Ciudad": "EL COPEY",
+        "Code postal": 20238
+    },
+    {
+        "Ciudad": "GAMARRA",
+        "Code postal": 20295
+    },
+    {
+        "Ciudad": "SAN MARTIN (C)",
+        "Code postal": 20770
+    },
+    {
+        "Ciudad": "ARBELAEZ",
+        "Code postal": 25053
+    },
+    {
+        "Ciudad": "PANDI",
+        "Code postal": 25524
+    },
+    {
+        "Ciudad": "SESQUILE",
+        "Code postal": 25736
+    },
+    {
+        "Ciudad": "UBALA",
+        "Code postal": 25839
+    },
+    {
+        "Ciudad": "URIBIA",
+        "Code postal": 44847
+    },
+    {
+        "Ciudad": "ARACATACA",
+        "Code postal": 47053
+    },
+    {
+        "Ciudad": "EL DIFICIL",
+        "Code postal": 47058
+    },
+    {
+        "Ciudad": "GUAMAL (MAG)",
+        "Code postal": 47318
+    },
+    {
+        "Ciudad": "SALAMINA",
+        "Code postal": 47675
+    },
+    {
+        "Ciudad": "SAN SEBASTIAN DE BUENAVISTA",
+        "Code postal": 47692
+    },
+    {
+        "Ciudad": "BERRUECOS",
+        "Code postal": 52051
+    },
+    {
+        "Ciudad": "BARBACOAS",
+        "Code postal": 52079
+    },
+    {
+        "Ciudad": "ILES",
+        "Code postal": 52352
+    },
+    {
+        "Ciudad": "SOTOMAYOR",
+        "Code postal": 52418
+    },
+    {
+        "Ciudad": "PUERRES",
+        "Code postal": 52573
+    },
+    {
+        "Ciudad": "SAN PEDRO DE CARTAGO",
+        "Code postal": 52694
+    },
+    {
+        "Ciudad": "TAMINANGO",
+        "Code postal": 52786
+    },
+    {
+        "Ciudad": "YACUANQUER",
+        "Code postal": 52885
+    },
+    {
+        "Ciudad": "ARBOLEDAS",
+        "Code postal": 54051
+    },
+    {
+        "Ciudad": "CHINACOTA",
+        "Code postal": 54172
+    },
+    {
+        "Ciudad": "CUCUTILLA",
+        "Code postal": 54223
+    },
+    {
+        "Ciudad": "EL TARRA",
+        "Code postal": 54250
+    },
+    {
+        "Ciudad": "EL ZULIA",
+        "Code postal": 54261
+    },
+    {
+        "Ciudad": "LOURDES",
+        "Code postal": 54418
+    },
+    {
+        "Ciudad": "SALAZAR",
+        "Code postal": 54660
+    },
+    {
+        "Ciudad": "SANTIAGO",
+        "Code postal": 54680
+    },
+    {
+        "Ciudad": "CAMPO DOS",
+        "Code postal": 54810
+    },
+    {
+        "Ciudad": "SAN VICENTE DE CHUCURI",
+        "Code postal": 68689
+    },
+    {
+        "Ciudad": "VALLE DE SAN JOSE",
+        "Code postal": 68855
+    },
+    {
+        "Ciudad": "ZAPATOCA",
+        "Code postal": 68895
+    },
+    {
+        "Ciudad": "SAN ONOFRE",
+        "Code postal": 70713
+    },
+    {
+        "Ciudad": "ATACO",
+        "Code postal": 73067
+    },
+    {
+        "Ciudad": "COYAIMA",
+        "Code postal": 73217
+    },
+    {
+        "Ciudad": "CUNDAY",
+        "Code postal": 73226
+    },
+    {
+        "Ciudad": "DOLORES",
+        "Code postal": 73236
+    },
+    {
+        "Ciudad": "GAITANIA",
+        "Code postal": 73555
+    },
+    {
+        "Ciudad": "HERRERA",
+        "Code postal": 73616
+    },
+    {
+        "Ciudad": "SAN ANTONIO",
+        "Code postal": 73675
+    },
+    {
+        "Ciudad": "SAN LUIS",
+        "Code postal": 73678
+    },
+    {
+        "Ciudad": "VILLAHERMOSA",
+        "Code postal": 73870
+    },
+    {
+        "Ciudad": "BOLIVAR (V)",
+        "Code postal": 76100
+    },
+    {
+        "Ciudad": "DARIEN (CALIMA)",
+        "Code postal": 76126
+    },
+    {
+        "Ciudad": "RIOFRIO",
+        "Code postal": 76616
+    },
+    {
+        "Ciudad": "TORO",
+        "Code postal": 76823
+    },
+    {
+        "Ciudad": "TRUJILLO",
+        "Code postal": 76828
+    },
+    {
+        "Ciudad": "ARBOLETES",
+        "Code postal": 5051
+    },
+    {
+        "Ciudad": "SAN JUAN DE URABÁ",
+        "Code postal": 5659
+    },
+    {
+        "Ciudad": "ACHI",
+        "Code postal": 13006
+    },
+    {
+        "Ciudad": "BARRANCO DE LOBA",
+        "Code postal": 13074
+    },
+    {
+        "Ciudad": "CICUCO",
+        "Code postal": 13188
+    },
+    {
+        "Ciudad": "HATILLO DE LOBA",
+        "Code postal": 13300
+    },
+    {
+        "Ciudad": "MARGARITA",
+        "Code postal": 13440
+    },
+    {
+        "Ciudad": "SAN FERNANDO (B)",
+        "Code postal": 13650
+    },
+    {
+        "Ciudad": "SAN MARTIN",
+        "Code postal": 13667
+    },
+    {
+        "Ciudad": "SAN PABLO",
+        "Code postal": 13670
+    },
+    {
+        "Ciudad": "SANTA ROSA DEL SUR",
+        "Code postal": 13688
+    },
+    {
+        "Ciudad": "SIMITI",
+        "Code postal": 13744
+    },
+    {
+        "Ciudad": "GUATEQUE",
+        "Code postal": 15322
+    },
+    {
+        "Ciudad": "TOCA",
+        "Code postal": 15814
+    },
+    {
+        "Ciudad": "TURMEQUE",
+        "Code postal": 15835
+    },
+    {
+        "Ciudad": "SAN JOSE (C)",
+        "Code postal": 17665
+    },
+    {
+        "Ciudad": "SAN SEBASTIAN",
+        "Code postal": 19693
+    },
+    {
+        "Ciudad": "TORIBIO",
+        "Code postal": 19821
+    },
+    {
+        "Ciudad": "TIERRALTA",
+        "Code postal": 23807
+    },
+    {
+        "Ciudad": "CABRERA",
+        "Code postal": 25120
+    },
+    {
+        "Ciudad": "CAPARRAPI",
+        "Code postal": 25148
+    },
+    {
+        "Ciudad": "CAQUEZA",
+        "Code postal": 25151
+    },
+    {
+        "Ciudad": "CHIPAQUE",
+        "Code postal": 25178
+    },
+    {
+        "Ciudad": "CHOCONTA",
+        "Code postal": 25183
+    },
+    {
+        "Ciudad": "EL ROSAL",
+        "Code postal": 25260
+    },
+    {
+        "Ciudad": "GRANADA",
+        "Code postal": 25312
+    },
+    {
+        "Ciudad": "GUATAQUI",
+        "Code postal": 25324
+    },
+    {
+        "Ciudad": "JUNIN",
+        "Code postal": 25372
+    },
+    {
+        "Ciudad": "LA PALMA",
+        "Code postal": 25394
+    },
+    {
+        "Ciudad": "NARIÑO",
+        "Code postal": 25483
+    },
+    {
+        "Ciudad": "PUENTE QUETAME",
+        "Code postal": 25594
+    },
+    {
+        "Ciudad": "SAN JUAN DE RIO SECO",
+        "Code postal": 25662
+    },
+    {
+        "Ciudad": "SUBACHOQUE",
+        "Code postal": 25769
+    },
+    {
+        "Ciudad": "SUESCA",
+        "Code postal": 25772
+    },
+    {
+        "Ciudad": "SUTATAUSA",
+        "Code postal": 25781
+    },
+    {
+        "Ciudad": "TAUSA",
+        "Code postal": 25793
+    },
+    {
+        "Ciudad": "TIBIRITA",
+        "Code postal": 25807
+    },
+    {
+        "Ciudad": "UTICA",
+        "Code postal": 25851
+    },
+    {
+        "Ciudad": "VILLAPINZON",
+        "Code postal": 25873
+    },
+    {
+        "Ciudad": "YACOPI",
+        "Code postal": 25885
+    },
+    {
+        "Ciudad": "CARRETO",
+        "Code postal": 47258
+    },
+    {
+        "Ciudad": "PIJIÑO",
+        "Code postal": 47545
+    },
+    {
+        "Ciudad": "REMOLINO",
+        "Code postal": 47605
+    },
+    {
+        "Ciudad": "SAN ZENON",
+        "Code postal": 47703
+    },
+    {
+        "Ciudad": "PALERMO",
+        "Code postal": 47745
+    },
+    {
+        "Ciudad": "PROVIDENCIA",
+        "Code postal": 52565
+    },
+    {
+        "Ciudad": "LANDAZURI",
+        "Code postal": 68385
+    },
+    {
+        "Ciudad": "PUENTE SOGAMOSO",
+        "Code postal": 68575
+    },
+    {
+        "Ciudad": "GUARANDA",
+        "Code postal": 70265
+    },
+    {
+        "Ciudad": "SUCRE (S)",
+        "Code postal": 70771
+    },
+    {
+        "Ciudad": "ALPUJARRA",
+        "Code postal": 73024
+    },
+    {
+        "Ciudad": "ANZOATEGUI",
+        "Code postal": 73043
+    },
+    {
+        "Ciudad": "GUALANDAY",
+        "Code postal": 73200
+    },
+    {
+        "Ciudad": "ICONONZO",
+        "Code postal": 73352
+    },
+    {
+        "Ciudad": "MURILLO",
+        "Code postal": 73461
+    },
+    {
+        "Ciudad": "RONCESVALLES",
+        "Code postal": 73622
+    },
+    {
+        "Ciudad": "SANTA ISABEL",
+        "Code postal": 73686
+    },
+    {
+        "Ciudad": "SUAREZ",
+        "Code postal": 73770
+    },
+    {
+        "Ciudad": "VILLARRICA (T)",
+        "Code postal": 73873
+    },
+    {
+        "Ciudad": "ARGELIA (V)",
+        "Code postal": 76054
+    },
+    {
+        "Ciudad": "EL CAIRO",
+        "Code postal": 76246
+    },
+    {
+        "Ciudad": "EL DOVIO",
+        "Code postal": 76250
+    },
+    {
+        "Ciudad": "RESTREPO",
+        "Code postal": 76606
+    },
+    {
+        "Ciudad": "ULLOA",
+        "Code postal": 76845
+    },
+    {
+        "Ciudad": "VERSALLES",
+        "Code postal": 76863
+    },
+    {
+        "Ciudad": "GUADALUPE",
+        "Code postal": 5315
+    },
+    {
+        "Ciudad": "EL GUAMO (B)",
+        "Code postal": 13248
+    },
+    {
+        "Ciudad": "ALMEIDA",
+        "Code postal": 15022
+    },
+    {
+        "Ciudad": "AQUITANIA",
+        "Code postal": 15047
+    },
+    {
+        "Ciudad": "ARCABUCO",
+        "Code postal": 15051
+    },
+    {
+        "Ciudad": "BELEN",
+        "Code postal": 15087
+    },
+    {
+        "Ciudad": "BERBEO",
+        "Code postal": 15090
+    },
+    {
+        "Ciudad": "BETEITIVA",
+        "Code postal": 15092
+    },
+    {
+        "Ciudad": "BOAVITA",
+        "Code postal": 15097
+    },
+    {
+        "Ciudad": "BOYACA",
+        "Code postal": 15104
+    },
+    {
+        "Ciudad": "BUSBANZA",
+        "Code postal": 15114
+    },
+    {
+        "Ciudad": "CALDAS",
+        "Code postal": 15131
+    },
+    {
+        "Ciudad": "CAMPOHERMOSO",
+        "Code postal": 15135
+    },
+    {
+        "Ciudad": "CERINZA",
+        "Code postal": 15162
+    },
+    {
+        "Ciudad": "CHINAVITA",
+        "Code postal": 15172
+    },
+    {
+        "Ciudad": "CHISCAS",
+        "Code postal": 15180
+    },
+    {
+        "Ciudad": "CHITA",
+        "Code postal": 15183
+    },
+    {
+        "Ciudad": "CHITARAQUE",
+        "Code postal": 15185
+    },
+    {
+        "Ciudad": "CHIVATA",
+        "Code postal": 15187
+    },
+    {
+        "Ciudad": "CIENEGA",
+        "Code postal": 15189
+    },
+    {
+        "Ciudad": "COPER",
+        "Code postal": 15212
+    },
+    {
+        "Ciudad": "CUCAITA",
+        "Code postal": 15224
+    },
+    {
+        "Ciudad": "CHIQUIZA",
+        "Code postal": 15232
+    },
+    {
+        "Ciudad": "CHIVOR",
+        "Code postal": 15236
+    },
+    {
+        "Ciudad": "EL COCUY",
+        "Code postal": 15244
+    },
+    {
+        "Ciudad": "EL ESPINO",
+        "Code postal": 15248
+    },
+    {
+        "Ciudad": "FIRAVITOBA",
+        "Code postal": 15272
+    },
+    {
+        "Ciudad": "GACHANTIVA",
+        "Code postal": 15293
+    },
+    {
+        "Ciudad": "GARAGOA",
+        "Code postal": 15299
+    },
+    {
+        "Ciudad": "GUACAMAYAS",
+        "Code postal": 15317
+    },
+    {
+        "Ciudad": "GUAYATA",
+        "Code postal": 15325
+    },
+    {
+        "Ciudad": "GUICAN",
+        "Code postal": 15332
+    },
+    {
+        "Ciudad": "IZA",
+        "Code postal": 15362
+    },
+    {
+        "Ciudad": "JENESANO",
+        "Code postal": 15367
+    },
+    {
+        "Ciudad": "JERICO",
+        "Code postal": 15368
+    },
+    {
+        "Ciudad": "LABRANZAGRANDE",
+        "Code postal": 15377
+    },
+    {
+        "Ciudad": "LA CAPILLA",
+        "Code postal": 15380
+    },
+    {
+        "Ciudad": "LA VICTORIA (B)",
+        "Code postal": 15401
+    },
+    {
+        "Ciudad": "LA UVITA",
+        "Code postal": 15403
+    },
+    {
+        "Ciudad": "MACANAL",
+        "Code postal": 15425
+    },
+    {
+        "Ciudad": "MARIPI",
+        "Code postal": 15442
+    },
+    {
+        "Ciudad": "MIRAFLORES",
+        "Code postal": 15455
+    },
+    {
+        "Ciudad": "MONGUA",
+        "Code postal": 15464
+    },
+    {
+        "Ciudad": "MONGUI",
+        "Code postal": 15466
+    },
+    {
+        "Ciudad": "MOTAVITA",
+        "Code postal": 15476
+    },
+    {
+        "Ciudad": "MUZO",
+        "Code postal": 15480
+    },
+    {
+        "Ciudad": "NUEVO COLON",
+        "Code postal": 15494
+    },
+    {
+        "Ciudad": "OICATA",
+        "Code postal": 15500
+    },
+    {
+        "Ciudad": "OTANCHE",
+        "Code postal": 15507
+    },
+    {
+        "Ciudad": "PACHAVITA",
+        "Code postal": 15511
+    },
+    {
+        "Ciudad": "PAEZ",
+        "Code postal": 15514
+    },
+    {
+        "Ciudad": "PAJARITO",
+        "Code postal": 15518
+    },
+    {
+        "Ciudad": "PANQUEBA",
+        "Code postal": 15522
+    },
+    {
+        "Ciudad": "PAUNA",
+        "Code postal": 15531
+    },
+    {
+        "Ciudad": "PAZ DE RIO",
+        "Code postal": 15537
+    },
+    {
+        "Ciudad": "QUIPAMA",
+        "Code postal": 15580
+    },
+    {
+        "Ciudad": "RAMIRIQUI",
+        "Code postal": 15599
+    },
+    {
+        "Ciudad": "RAQUIRA",
+        "Code postal": 15600
+    },
+    {
+        "Ciudad": "RONDON",
+        "Code postal": 15621
+    },
+    {
+        "Ciudad": "SABOYA",
+        "Code postal": 15632
+    },
+    {
+        "Ciudad": "SACHICA",
+        "Code postal": 15638
+    },
+    {
+        "Ciudad": "SAMACA",
+        "Code postal": 15646
+    },
+    {
+        "Ciudad": "SAN EDUARDO",
+        "Code postal": 15660
+    },
+    {
+        "Ciudad": "SAN LUIS DE GACENO",
+        "Code postal": 15667
+    },
+    {
+        "Ciudad": "SAN MATEO",
+        "Code postal": 15673
+    },
+    {
+        "Ciudad": "SAN MIGUEL DE SEMA",
+        "Code postal": 15676
+    },
+    {
+        "Ciudad": "SAN PABLO DE BORBUR",
+        "Code postal": 15681
+    },
+    {
+        "Ciudad": "SANTA MARIA",
+        "Code postal": 15690
+    },
+    {
+        "Ciudad": "SANTA SOFIA",
+        "Code postal": 15696
+    },
+    {
+        "Ciudad": "SATIVANORTE",
+        "Code postal": 15720
+    },
+    {
+        "Ciudad": "SATIVASUR",
+        "Code postal": 15723
+    },
+    {
+        "Ciudad": "SIACHOQUE",
+        "Code postal": 15740
+    },
+    {
+        "Ciudad": "SOATA",
+        "Code postal": 15753
+    },
+    {
+        "Ciudad": "SOCOTA",
+        "Code postal": 15755
+    },
+    {
+        "Ciudad": "SOCHA",
+        "Code postal": 15757
+    },
+    {
+        "Ciudad": "SOMONDOCO",
+        "Code postal": 15761
+    },
+    {
+        "Ciudad": "SORA",
+        "Code postal": 15762
+    },
+    {
+        "Ciudad": "SORACA",
+        "Code postal": 15764
+    },
+    {
+        "Ciudad": "SUSACON",
+        "Code postal": 15774
+    },
+    {
+        "Ciudad": "SUTAMARCHAN",
+        "Code postal": 15776
+    },
+    {
+        "Ciudad": "SUTATENZA",
+        "Code postal": 15778
+    },
+    {
+        "Ciudad": "TENZA",
+        "Code postal": 15798
+    },
+    {
+        "Ciudad": "TIBANA",
+        "Code postal": 15804
+    },
+    {
+        "Ciudad": "TIPACOQUE",
+        "Code postal": 15810
+    },
+    {
+        "Ciudad": "TOGÜI",
+        "Code postal": 15816
+    },
+    {
+        "Ciudad": "TOPAGA",
+        "Code postal": 15820
+    },
+    {
+        "Ciudad": "TOTA",
+        "Code postal": 15822
+    },
+    {
+        "Ciudad": "TUNUNGUA",
+        "Code postal": 15832
+    },
+    {
+        "Ciudad": "TUTA",
+        "Code postal": 15837
+    },
+    {
+        "Ciudad": "TUTAZA",
+        "Code postal": 15839
+    },
+    {
+        "Ciudad": "UMBITA",
+        "Code postal": 15842
+    },
+    {
+        "Ciudad": "VIRACACHA",
+        "Code postal": 15879
+    },
+    {
+        "Ciudad": "ZETAQUIRA",
+        "Code postal": 15897
+    },
+    {
+        "Ciudad": "GONZALEZ",
+        "Code postal": 20310
+    },
+    {
+        "Ciudad": "ALBAN",
+        "Code postal": 25019
+    },
+    {
+        "Ciudad": "BITUIMA",
+        "Code postal": 25095
+    },
+    {
+        "Ciudad": "BOJACA",
+        "Code postal": 25099
+    },
+    {
+        "Ciudad": "CACHIPAY",
+        "Code postal": 25123
+    },
+    {
+        "Ciudad": "CARMEN DE CARUPA",
+        "Code postal": 25154
+    },
+    {
+        "Ciudad": "CHAGUANI",
+        "Code postal": 25168
+    },
+    {
+        "Ciudad": "CHOACHI",
+        "Code postal": 25181
+    },
+    {
+        "Ciudad": "COGUA",
+        "Code postal": 25200
+    },
+    {
+        "Ciudad": "CUCUNUBA",
+        "Code postal": 25224
+    },
+    {
+        "Ciudad": "EL PEÑON",
+        "Code postal": 25258
+    },
+    {
+        "Ciudad": "FOMEQUE",
+        "Code postal": 25279
+    },
+    {
+        "Ciudad": "FOSCA",
+        "Code postal": 25281
+    },
+    {
+        "Ciudad": "FUQUENE",
+        "Code postal": 25288
+    },
+    {
+        "Ciudad": "GACHALA",
+        "Code postal": 25293
+    },
+    {
+        "Ciudad": "GUACHETA",
+        "Code postal": 25317
+    },
+    {
+        "Ciudad": "GUASCA",
+        "Code postal": 25322
+    },
+    {
+        "Ciudad": "GUATAVITA",
+        "Code postal": 25326
+    },
+    {
+        "Ciudad": "GUAYABAL DE SIQUIMA",
+        "Code postal": 25328
+    },
+    {
+        "Ciudad": "GUAYABETAL",
+        "Code postal": 25335
+    },
+    {
+        "Ciudad": "LA PEÑA",
+        "Code postal": 25398
+    },
+    {
+        "Ciudad": "LENGUAZAQUE",
+        "Code postal": 25407
+    },
+    {
+        "Ciudad": "MACHETA",
+        "Code postal": 25426
+    },
+    {
+        "Ciudad": "MANTA",
+        "Code postal": 25436
+    },
+    {
+        "Ciudad": "MEDINA",
+        "Code postal": 25438
+    },
+    {
+        "Ciudad": "NEMOCON",
+        "Code postal": 25486
+    },
+    {
+        "Ciudad": "NILO",
+        "Code postal": 25488
+    },
+    {
+        "Ciudad": "NOCAIMA",
+        "Code postal": 25491
+    },
+    {
+        "Ciudad": "PAIME",
+        "Code postal": 25518
+    },
+    {
+        "Ciudad": "PASCA",
+        "Code postal": 25535
+    },
+    {
+        "Ciudad": "PULI",
+        "Code postal": 25580
+    },
+    {
+        "Ciudad": "RICAURTE",
+        "Code postal": 25612
+    },
+    {
+        "Ciudad": "SAN BERNARDO",
+        "Code postal": 25649
+    },
+    {
+        "Ciudad": "TOPAIPI",
+        "Code postal": 25823
+    },
+    {
+        "Ciudad": "UBAQUE",
+        "Code postal": 25841
+    },
+    {
+        "Ciudad": "VIANI",
+        "Code postal": 25867
+    },
+    {
+        "Ciudad": "VIOTA",
+        "Code postal": 25878
+    },
+    {
+        "Ciudad": "ZIPACON",
+        "Code postal": 25898
+    },
+    {
+        "Ciudad": "PIE DE PATO",
+        "Code postal": 27025
+    },
+    {
+        "Ciudad": "PIZARRO",
+        "Code postal": 27077
+    },
+    {
+        "Ciudad": "BELLAVISTA",
+        "Code postal": 27099
+    },
+    {
+        "Ciudad": "JURADO",
+        "Code postal": 27372
+    },
+    {
+        "Ciudad": "LLORO",
+        "Code postal": 27413
+    },
+    {
+        "Ciudad": "NOVITA",
+        "Code postal": 27491
+    },
+    {
+        "Ciudad": "SAN JOSE DEL PALMAR",
+        "Code postal": 27660
+    },
+    {
+        "Ciudad": "SIPI",
+        "Code postal": 27745
+    },
+    {
+        "Ciudad": "UNGUIA",
+        "Code postal": 27800
+    },
+    {
+        "Ciudad": "BARRANCA DE UPIA",
+        "Code postal": 50110
+    },
+    {
+        "Ciudad": "FUENTE DE ORO",
+        "Code postal": 50287
+    },
+    {
+        "Ciudad": "APARTADO",
+        "Code postal": 50450
+    },
+    {
+        "Ciudad": "PUERTO LLERAS",
+        "Code postal": 50577
+    },
+    {
+        "Ciudad": "ARMENIA",
+        "Code postal": 50590
+    },
+    {
+        "Ciudad": "EL CARMEN",
+        "Code postal": 54245
+    },
+    {
+        "Ciudad": "AGUADA",
+        "Code postal": 68013
+    },
+    {
+        "Ciudad": "BOLIVAR",
+        "Code postal": 68101
+    },
+    {
+        "Ciudad": "CAPITANEJO",
+        "Code postal": 68147
+    },
+    {
+        "Ciudad": "CERRITO",
+        "Code postal": 68162
+    },
+    {
+        "Ciudad": "CHIPATA",
+        "Code postal": 68179
+    },
+    {
+        "Ciudad": "CONCEPCION",
+        "Code postal": 68207
+    },
+    {
+        "Ciudad": "CONTRATACION",
+        "Code postal": 68211
+    },
+    {
+        "Ciudad": "EL PEÑON",
+        "Code postal": 68250
+    },
+    {
+        "Ciudad": "ENCISO",
+        "Code postal": 68266
+    },
+    {
+        "Ciudad": "FLORIAN",
+        "Code postal": 68271
+    },
+    {
+        "Ciudad": "GALAN (S)",
+        "Code postal": 68296
+    },
+    {
+        "Ciudad": "GAMBITA",
+        "Code postal": 68298
+    },
+    {
+        "Ciudad": "GUACA",
+        "Code postal": 68318
+    },
+    {
+        "Ciudad": "GUADALUPE",
+        "Code postal": 68320
+    },
+    {
+        "Ciudad": "GUAVATA",
+        "Code postal": 68324
+    },
+    {
+        "Ciudad": "JESUS MARIA",
+        "Code postal": 68368
+    },
+    {
+        "Ciudad": "LA BELLEZA",
+        "Code postal": 68377
+    },
+    {
+        "Ciudad": "LA PAZ",
+        "Code postal": 68397
+    },
+    {
+        "Ciudad": "MALAGA",
+        "Code postal": 68432
+    },
+    {
+        "Ciudad": "MATANZA",
+        "Code postal": 68444
+    },
+    {
+        "Ciudad": "MOLAGAVITA",
+        "Code postal": 68468
+    },
+    {
+        "Ciudad": "ONZAGA",
+        "Code postal": 68502
+    },
+    {
+        "Ciudad": "PARAMO",
+        "Code postal": 68533
+    },
+    {
+        "Ciudad": "SAN ANDRES",
+        "Code postal": 68669
+    },
+    {
+        "Ciudad": "SAN BENITO",
+        "Code postal": 68673
+    },
+    {
+        "Ciudad": "SAN JOAQUIN",
+        "Code postal": 68682
+    },
+    {
+        "Ciudad": "SAN JOSE DE MIRANDA",
+        "Code postal": 68684
+    },
+    {
+        "Ciudad": "SANTA HELENA DEL OPON",
+        "Code postal": 68720
+    },
+    {
+        "Ciudad": "SIMACOTA",
+        "Code postal": 68745
+    },
+    {
+        "Ciudad": "SUCRE",
+        "Code postal": 68773
+    },
+    {
+        "Ciudad": "LA UNION (S)",
+        "Code postal": 70400
+    },
+    {
+        "Ciudad": "MAJAGUAL",
+        "Code postal": 70429
+    },
+    {
+        "Ciudad": "EL AGUILA",
+        "Code postal": 76243
+    },
+    {
+        "Ciudad": "CRAVO NORTE",
+        "Code postal": 81220
+    },
+    {
+        "Ciudad": "PUERTO RONDON",
+        "Code postal": 81591
+    },
+    {
+        "Ciudad": "HATO COROZAL",
+        "Code postal": 85125
+    },
+    {
+        "Ciudad": "NUNCHIA",
+        "Code postal": 85225
+    },
+    {
+        "Ciudad": "OROCUE",
+        "Code postal": 85230
+    },
+    {
+        "Ciudad": "SAN JOSE DEL GUAVIARE",
+        "Code postal": 95001
+    },
+    {
+        "Ciudad": "AMALFI",
+        "Code postal": 5031
+    },
+    {
+        "Ciudad": "CAROLINA",
+        "Code postal": 5150
+    },
+    {
+        "Ciudad": "GÓMEZ PLATA",
+        "Code postal": 5310
+    },
+    {
+        "Ciudad": "PIOJÓ",
+        "Code postal": 8549
+    }
+]
